@@ -104,8 +104,12 @@ int main(string[] args) {
     // Note used to pass empty args but was interfering with GTK default args
     Main.init(args);
 
+    bool isService = false;
+    bool showHelp = false;
     trace(format("Starting tilix with %d arguments...", args.length));
     foreach(i, arg; args) {
+        if (arg == "--gapplication-service") isService = true;
+        if (arg == "-h" || arg.startsWith("--help")) showHelp = true;
         trace(format("arg[%d] = %s",i, arg));
         // Workaround issue with Unity and older Gnome Shell when DBusActivatable sometimes CWD is set to /, see #285
         if (arg == "--gapplication-service" && pwd == uhd && cwd == "/") {
@@ -156,6 +160,10 @@ int main(string[] args) {
         return 1;
     }
 
+    if (!isService && !newProcess && !showHelp && group.length == 0) {
+        startService();
+    }
+
     trace("Creating app");
     auto tilixApp = new Tilix(newProcess, group);
     int result;
@@ -172,6 +180,28 @@ int main(string[] args) {
 }
 
 private:
+    /**
+     * Has D-Bus start the background service, like a launch from the desktop
+     * does, so this process hands over its command line and returns to the
+     * shell instead of becoming the primary instance. Without an installed
+     * service file this process stays the primary instance as before.
+     */
+    void startService() {
+        import gio.DBusConnection;
+        import gio.c.types : GBusType, GDBusCallFlags;
+        import glib.Variant : GVariant = Variant;
+        import glib.VariantType : GVariantType = VariantType;
+
+        try {
+            DBusConnection bus = DBusConnection.getSync(GBusType.SESSION, null);
+            bus.callSync("org.freedesktop.DBus", "/org/freedesktop/DBus", "org.freedesktop.DBus", "StartServiceByName",
+                new GVariant([new GVariant(APPLICATION_ID), new GVariant(cast(uint) 0)]),
+                new GVariantType("(u)"), GDBusCallFlags.NONE, 5000, null);
+        } catch (Exception e) {
+            tracef("D-Bus service not started, running as primary instance: %s", e.msg);
+        }
+    }
+
     void outputVersions() {
         import gx.gtk.vte: getVTEVersion, checkVTEFeature, TerminalFeature, isVTEBackgroundDrawEnabled;
         import gtk.Version: Version;
