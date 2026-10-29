@@ -9,6 +9,7 @@ import std.conv;
 import std.experimental.logger;
 import std.file;
 import std.format;
+import std.json;
 import std.path;
 import std.process;
 import std.stdio;
@@ -61,6 +62,7 @@ import gtk.Window;
 import gx.gtk.actions;
 import gx.gtk.cairo;
 import gx.gtk.resource;
+import gx.gtk.threads;
 import gx.gtk.util;
 import gx.gtk.vte;
 import gx.i18n.l10n;
@@ -125,6 +127,12 @@ private:
     bool _processMonitor = false;
 
     CssProvider themeCssProvider;
+
+    enum AUTOSAVE_INTERVAL_MS = 5000;
+    enum NODE_WINDOWS = "windows";
+
+    // Last JSON written to the autosave file, to skip unchanged writes
+    string lastAutosave;
 
     /**
      * Load and register binary resource file and add css files as providers
@@ -302,11 +310,80 @@ private:
         window.showAll();
     }
 
+    string autosaveFilename() {
+        string stateHome = environment.get("XDG_STATE_HOME", buildPath(expandTilde("~"), ".local", "state"));
+        return buildPath(stateHome, APPLICATION_CONFIG_FOLDER, "autosave.json");
+    }
+
+    /**
+     * Writes the layout of all windows to the autosave file. Nothing is
+     * written while no window is open, so closing the last window keeps
+     * its layout for the next start.
+     */
+    void saveAutosave() {
+        string filename = autosaveFilename();
+        try {
+            JSONValue[] windows;
+            foreach (window; appWindows) {
+                if (!window.isQuake()) windows ~= window.serializeSessions();
+            }
+            if (windows.length == 0) return;
+
+            JSONValue root = ["version": JSONValue(1), NODE_WINDOWS: JSONValue(windows)];
+            string json = root.toPrettyString();
+            if (json == lastAutosave) return;
+            mkdirRecurse(dirName(filename));
+            std.file.write(filename ~ ".tmp", json);
+            std.file.rename(filename ~ ".tmp", filename);
+            lastAutosave = json;
+        } catch (Exception e) {
+            warningf("Could not autosave to %s: %s", filename, e.msg);
+        }
+    }
+
+    /**
+     * Re-creates the windows from the autosave file.
+     *
+     * Returns: true if at least one window was restored
+     */
+    bool restoreAutosave() {
+        string filename = autosaveFilename();
+        if (!exists(filename)) return false;
+        JSONValue[] windows;
+        try {
+            windows = parseJSON(readText(filename))[NODE_WINDOWS].array;
+        } catch (Exception e) {
+            warningf("Could not read autosave file %s: %s", filename, e.msg);
+            return false;
+        }
+        foreach (value; windows) {
+            AppWindow window = new AppWindow(this, useTabs);
+            try {
+                window.initialize(value);
+            } catch (Exception e) {
+                warningf("Could not restore window: %s", e.msg);
+                window.initialize();
+            }
+            window.showAll();
+        }
+        return windows.length > 0;
+    }
+
+    /**
+     * Restore only on a plain start, not when the command line asks
+     * for a specific session, command or directory
+     */
+    bool shouldRestoreAutosave() {
+        return appWindows.length == 0 && !cp.quake && cp.session.length == 0
+            && cp.command.length == 0 && cp.workingDir.length == 0;
+    }
+
     void quitTilix() {
         ProcessInformation pi = getProcessesInformation();
         if (pi.children.length > 0) {
             if (!promptCanCloseProcesses(gsGeneral, getActiveWindow(), pi)) return;
         }
+        saveAutosave();
 
         if (preferenceDialog !is null) {
             preferenceDialog.close();
@@ -461,7 +538,7 @@ private:
         trace("Activate App Signal");
         if (!app.getIsRemote()) {
             if (cp.preferences) presentPreferences();
-            else createAppWindow();
+            else if (!shouldRestoreAutosave() || !restoreAutosave()) createAppWindow();
         }
         cp.clear();
     }
@@ -512,6 +589,10 @@ private:
         applyPreferences();
         setupPrimaryMenuActions();
         loadProfileShortcuts();
+        threadsAddTimeoutDelegate(AUTOSAVE_INTERVAL_MS, delegate() {
+            saveAutosave();
+            return true;
+        });
     }
 
     void setShortcut(string actionName, string shortcut) {

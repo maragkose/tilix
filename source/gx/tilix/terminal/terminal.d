@@ -146,6 +146,7 @@ import gx.tilix.terminal.exvte;
 import gx.tilix.terminal.layout;
 import gx.tilix.terminal.password;
 import gx.tilix.terminal.regex;
+import gx.tilix.terminal.restore : getRestoreCommand;
 import gx.tilix.terminal.search;
 import gx.tilix.terminal.util;
 import gx.tilix.terminal.monitor;
@@ -262,6 +263,8 @@ private:
     string _overrideTitle;
     //overrides command when load from session JSON
     string _overrideCommand;
+    //typed into the shell once after it is spawned from session JSON
+    string _restoreCommand;
     //overrides badge
     string _overrideBadge;
     //Whether synchronized input is turned on in the session
@@ -3822,6 +3825,10 @@ public:
         trace("Initializing Terminal with directory " ~ initialPath);
         gst.initialCWD = initialPath;
         spawnTerminalProcess(initialPath, _overrideCommand);
+        if (_restoreCommand.length > 0 && gpid > 0) {
+            feedChild(_restoreCommand ~ "\n", true);
+        }
+        _restoreCommand = null;
         if (firstRun) {
             int width = gsProfile.getInt(SETTINGS_PROFILE_SIZE_COLUMNS_KEY);
             int height = gsProfile.getInt(SETTINGS_PROFILE_SIZE_ROWS_KEY);
@@ -3954,6 +3961,19 @@ public:
     }
 
     /**
+     * Returns the command that resumes the program in the foreground of the
+     * shell, or null if there is none or it should not be restored.
+     */
+    string getForegroundRestoreCommand() {
+        if (isFlatpak() || vte is null || vte.getPty() is null || _overrideCommand.length > 0)
+            return null;
+        pid_t pgid = tcgetpgrp(vte.getPty().getFd());
+        if (pgid <= 0 || pgid == gpid)
+            return null;
+        return getRestoreCommand(pgid);
+    }
+
+    /**
      * Determines if a child process is running in the terminal,
      * and returns the pid
      */
@@ -4077,6 +4097,10 @@ public:
         if (_overrideCommand.length > 0) {
             value[NODE_OVERRIDE_CMD] = JSONValue(_overrideCommand);
         }
+        string restoreCommand = getForegroundRestoreCommand();
+        if (restoreCommand.length > 0) {
+            value[NODE_RESTORE_CMD] = JSONValue(restoreCommand);
+        }
         value[NODE_READONLY] = JSONValue(!vte.getInputEnabled());
         value[NODE_SYNCHRONIZED_INPUT] = JSONValue(_synchronizeInputOverride);
         return value;
@@ -4091,6 +4115,9 @@ public:
         }
         if (NODE_OVERRIDE_CMD in value) {
             _overrideCommand = value[NODE_OVERRIDE_CMD].str();
+        }
+        if (NODE_RESTORE_CMD in value && _overrideCommand.length == 0) {
+            _restoreCommand = value[NODE_RESTORE_CMD].str();
         }
         if (NODE_READONLY in value) {
             vte.setInputEnabled(value[NODE_READONLY].type == JSONType.false_);
@@ -4117,6 +4144,20 @@ public:
 
     @property string currentLocalDirectory() {
         return gst.getState(TerminalStateType.LOCAL).directory;
+    }
+
+    /**
+     * The shell's working directory read from /proc, for shells
+     * that do not report it via the VTE integration script
+     */
+    @property string shellDirectory() {
+        import std.file: readLink, FileException;
+        if (gpid <= 0 || isFlatpak()) return null;
+        try {
+            return readLink(format("/proc/%d/cwd", gpid));
+        } catch (FileException) {
+            return null;
+        }
     }
 
     @property string defaultProfileUUID() {
@@ -4655,6 +4696,7 @@ public:
  */
 private:
     enum NODE_OVERRIDE_CMD = "overrideCommand";
+    enum NODE_RESTORE_CMD = "restoreCommand";
     enum NODE_BADGE = "badge";
     enum NODE_TITLE = "title";
     enum NODE_READONLY = "readOnly";

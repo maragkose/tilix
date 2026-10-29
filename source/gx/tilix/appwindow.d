@@ -149,6 +149,10 @@ private:
     enum ACTION_SESSION_REORDER_PREVIOUS = "reorder-previous-session";
     enum ACTION_SESSION_REORDER_NEXT = "reorder-next-session";
 
+    // Automatic save nodes
+    enum NODE_SESSIONS = "sessions";
+    enum NODE_ACTIVE_SESSION = "activeSession";
+
     string _windowUUID;
 
     bool useTabs = false;
@@ -1474,6 +1478,14 @@ private:
             throw new SessionCreationException(format(_("Filename '%s' does not exist"), filename));
         string text = readText(filename);
         JSONValue value = parseJSON(text);
+        loadSession(value, filename);
+        addRecentSessionFile(filename);
+    }
+
+    /**
+     * Loads session from its JSON representation
+     */
+    void loadSession(JSONValue value, string filename) {
         int width = nb.getAllocatedWidth();
         int height = nb.getAllocatedHeight();
         // If no sessions then we are loading our first session,
@@ -1489,7 +1501,6 @@ private:
                 throw new SessionCreationException("Session could not be created due to error: " ~ e.msg, e);
             }
         }
-		addRecentSessionFile(filename);
         tracef("Session dimensions: w=%d, h=%d", width, height);
         Session session = new Session("");
         session.initSession(value, filename, width, height, nb.getNPages() == 0);
@@ -1841,6 +1852,41 @@ public:
 
     void initialize(Session session) {
         addSession(session);
+    }
+
+    /**
+     * Serializes all sessions of the window for automatic save
+     */
+    JSONValue serializeSessions() {
+        JSONValue[] sessions;
+        foreach (session; getSessions()) {
+            sessions ~= session.serialize();
+        }
+        JSONValue value = [NODE_SESSIONS: JSONValue(sessions)];
+        Session current = getCurrentSession();
+        if (current !is null) {
+            value[NODE_ACTIVE_SESSION] = current.uuid;
+        }
+        return value;
+    }
+
+    /**
+     * Restores the sessions written by serializeSessions, falling back
+     * to a default session if none could be restored
+     */
+    void initialize(JSONValue value) {
+        foreach (sessionValue; value[NODE_SESSIONS].array) {
+            try {
+                loadSession(sessionValue, "");
+            } catch (Exception e) {
+                errorf("Could not restore session: %s", e.msg);
+            }
+        }
+        if (nb.getNPages() == 0) {
+            initialize();
+        } else if (NODE_ACTIVE_SESSION in value) {
+            activateSession(value[NODE_ACTIVE_SESSION].str());
+        }
     }
 
     void closeNoPrompt() {

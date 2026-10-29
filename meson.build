@@ -59,6 +59,7 @@ tilix_sources = [
     'source/gx/tilix/terminal/monitor.d',
     'source/gx/tilix/terminal/password.d',
     'source/gx/tilix/terminal/regex.d',
+    'source/gx/tilix/terminal/restore.d',
     'source/gx/tilix/terminal/search.d',
     'source/gx/tilix/terminal/terminal.d',
     'source/gx/tilix/terminal/util.d',

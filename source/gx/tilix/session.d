@@ -877,7 +877,11 @@ private:
      */
     JSONValue serializeTerminal(JSONValue value, Terminal terminal) {
         value[NODE_PROFILE] = terminal.defaultProfileUUID;
-        value[NODE_DIRECTORY] = terminal.currentLocalDirectory;
+        string directory = terminal.currentLocalDirectory;
+        if (directory.length == 0) {
+            directory = terminal.shellDirectory;
+        }
+        value[NODE_DIRECTORY] = directory;
         value[NODE_WIDTH] = JSONValue(terminal.getAllocatedWidth());
         value[NODE_HEIGHT] = JSONValue(terminal.getAllocatedHeight());
         value[NODE_UUID] = terminal.uuid;
