@@ -1703,7 +1703,7 @@ public:
             applyPreference(key);
         });
         setTitle(_("Tilix"));
-        setIconName("com.gexperts.Tilix");
+        setIconName(APPLICATION_ICON_NAME);
         setWindowStyle();
         loadRecentSessionFileList();
         gsSettings.addOnChanged(delegate(string key, GSettings) {

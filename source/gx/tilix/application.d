@@ -790,7 +790,7 @@ public:
         super(APPLICATION_ID, flags);
 
         if (group.length > 0) {
-            string id = "com.gexperts.Tilix." ~ group;
+            string id = APPLICATION_ID ~ "." ~ group;
             if (idIsValid(id)) {
                 tracef("Setting app id to %s", id);
                 setApplicationId(id);

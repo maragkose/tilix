@@ -3,17 +3,19 @@ subdir('man')
 # install the icons
 install_data(
     'icons/hicolor/scalable/apps/@0@.svg'.format(project_id),
+    rename: '@0@.svg'.format(app_id),
     install_dir: iconsdir / 'scalable' / 'apps'
 )
 install_data(
     'icons/hicolor/scalable/apps/@0@-symbolic.svg'.format(project_id),
+    rename: '@0@-symbolic.svg'.format(app_id),
     install_dir: iconsdir / 'symbolic' / 'apps'
 )
 
 # Install the desktop file
 desktop_file = i18n.merge_file(
     output: '@BASENAME@',
-    input: 'pkg/desktop/@0@.desktop.in'.format(project_id),
+    input: 'pkg/desktop/@0@.desktop.in'.format(app_id),
     po_dir: meson.project_source_root() / 'po',
     type: 'desktop',
     install: true,
@@ -108,7 +110,7 @@ conf = configuration_data()
 conf.set('bindir', bindir)
 
 configure_file(
-  input: 'dbus/@0@.service.in'.format(project_id),
+  input: 'dbus/@0@.service.in'.format(app_id),
   output: '@BASENAME@',
   configuration: conf,
   install_dir: datadir / 'dbus-1' / 'services'

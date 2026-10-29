@@ -15,6 +15,8 @@ else
 endif
 
 project_id = 'com.gexperts.Tilix'
+# Application ID of the fork. GSettings schemas keep project_id so Tilix profiles are shared.
+app_id = 'io.github.maragkose.Terminio'
 project_name = meson.project_name()
 
 gnome = import('gnome')
@@ -106,7 +108,7 @@ subdir('po')
 subdir('data')
 
 # Build & Test
-executable('tilix',
+executable('terminio',
     [tilix_sources, gresource],
     include_directories : sources_dir,
     dependencies : [gtkd_dep,

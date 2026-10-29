@@ -62,16 +62,16 @@ enum TILIX_DOMAIN = "tilix";
 /**
  * Application ID
  */
-enum APPLICATION_ID = "com.gexperts.Tilix";
+enum APPLICATION_ID = "io.github.maragkose.Terminio";
 
 // Application values used in About Dialog
-enum APPLICATION_NAME = "Tilix";
+enum APPLICATION_NAME = "Terminio";
 enum APPLICATION_VERSION = "1.9.7";
 enum APPLICATION_AUTHOR = "Gerald Nunn";
 enum APPLICATION_COPYRIGHT = "Copyright \xc2\xa9 2020 " ~ APPLICATION_AUTHOR;
 enum APPLICATION_COMMENTS = N_("A VTE based terminal emulator for Linux");
 enum APPLICATION_LICENSE = N_("This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.");
-enum APPLICATION_ICON_NAME = "com.gexperts.Tilix";
+enum APPLICATION_ICON_NAME = "io.github.maragkose.Terminio";
 
 immutable string[] APPLICATION_AUTHORS = [APPLICATION_AUTHOR];
 string[] APPLICATION_CREDITS = [
