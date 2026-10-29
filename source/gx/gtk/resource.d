@@ -38,7 +38,7 @@ enum ProviderPriority : uint {
  * Find and optionally register a resource
  */
 Resource findResource(string resourcePath, bool register = true) {
-    foreach (path; Util.getSystemDataDirs()) {
+    foreach (path; Util.getUserDataDir() ~ Util.getSystemDataDirs()) {
         auto fullpath = buildPath(path, resourcePath);
         trace("looking for resource " ~ fullpath);
         if (exists(fullpath)) {
