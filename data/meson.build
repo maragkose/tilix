@@ -1,10 +1,12 @@
 subdir('man')
 
 # install the icons
-install_data(
-    'icons/hicolor/scalable/apps/@0@.svg'.format(project_id),
-    install_dir: iconsdir / 'scalable' / 'apps'
-)
+foreach size : ['16x16', '24x24', '32x32', '48x48', '64x64', '96x96', '256x256', '512x512']
+    install_data(
+        'icons/hicolor/@0@/apps/@1@.png'.format(size, project_id),
+        install_dir: iconsdir / size / 'apps'
+    )
+endforeach
 install_data(
     'icons/hicolor/scalable/apps/@0@-symbolic.svg'.format(project_id),
     install_dir: iconsdir / 'symbolic' / 'apps'
