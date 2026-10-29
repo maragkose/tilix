@@ -3,19 +3,17 @@ subdir('man')
 # install the icons
 install_data(
     'icons/hicolor/scalable/apps/@0@.svg'.format(project_id),
-    rename: '@0@.svg'.format(app_id),
     install_dir: iconsdir / 'scalable' / 'apps'
 )
 install_data(
     'icons/hicolor/scalable/apps/@0@-symbolic.svg'.format(project_id),
-    rename: '@0@-symbolic.svg'.format(app_id),
     install_dir: iconsdir / 'symbolic' / 'apps'
 )
 
 # Install the desktop file
 desktop_file = i18n.merge_file(
     output: '@BASENAME@',
-    input: 'pkg/desktop/@0@.desktop.in'.format(app_id),
+    input: 'pkg/desktop/@0@.desktop.in'.format(project_id),
     po_dir: meson.project_source_root() / 'po',
     type: 'desktop',
     install: true,
@@ -33,17 +31,17 @@ if desktop_file_validate.found()
 endif
 
 # Merge release information into MetaInfo file
-tilix_metainfo_name = '@0@.appdata.xml'.format(project_id)
+terminio_metainfo_name = '@0@.appdata.xml'.format(project_id)
 appstreamcli = find_program('appstreamcli')
 metainfo_with_releases = custom_target('metainfo-news-merge',
-    input : ['../NEWS', 'metainfo/@0@.in'.format(tilix_metainfo_name)],
+    input : ['../NEWS', 'metainfo/@0@.in'.format(terminio_metainfo_name)],
     output : ['untranslated-@0@.appdata.xml'.format(project_id)],
     command : [appstreamcli, 'news-to-metainfo', '--limit=6', '@INPUT0@', '@INPUT1@', '@OUTPUT@']
 )
 
 # Install the MetaInfo file
 metainfo_file = i18n.merge_file(
-    output: tilix_metainfo_name,
+    output: terminio_metainfo_name,
     input: metainfo_with_releases,
     po_dir: meson.project_source_root() / 'po',
     install: true,
@@ -56,15 +54,15 @@ if appstreamcli.found()
     'Validate metainfo file',
     appstreamcli,
     args: ['validate', '--no-net',
-           join_paths(meson.current_source_dir(), 'metainfo', '@0@.in'.format(tilix_metainfo_name))
+           join_paths(meson.current_source_dir(), 'metainfo', '@0@.in'.format(terminio_metainfo_name))
     ]
   )
 endif
 
 # Build resources
 gresource = gnome.compile_resources(
-    'tilix',
-    'resources/tilix.gresource.xml',
+    'terminio',
+    'resources/terminio.gresource.xml',
     gresource_bundle: true,
     install: true,
     source_dir: 'resources/',
@@ -95,13 +93,13 @@ install_data(
 
 # Scripts
 install_data(
-    'scripts/tilix_int.sh',
+    'scripts/terminio_int.sh',
     install_dir: pkgdatadir / 'scripts'
 )
 
 # Copying Nautilus extension
 install_data(
-    'nautilus/open-tilix.py',
+    'nautilus/open-terminio.py',
     install_dir: datadir / 'nautilus-python' / 'extensions'
 )
 
@@ -110,7 +108,7 @@ conf = configuration_data()
 conf.set('bindir', bindir)
 
 configure_file(
-  input: 'dbus/@0@.service.in'.format(app_id),
+  input: 'dbus/@0@.service.in'.format(project_id),
   output: '@BASENAME@',
   configuration: conf,
   install_dir: datadir / 'dbus-1' / 'services'

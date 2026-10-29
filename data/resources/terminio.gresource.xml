@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/github/maragkose/Terminio">
+    <file preprocess="to-pixdata">icons/16x16/actions/terminio-add-horizontal-symbolic.symbolic.png</file>
+    <file preprocess="to-pixdata">icons/16x16/actions/terminio-add-vertical-symbolic.symbolic.png</file>
+    <file preprocess="to-pixdata">icons/32x32/actions/terminio-add-horizontal-symbolic.symbolic.png</file>
+    <file preprocess="to-pixdata">icons/32x32/actions/terminio-add-vertical-symbolic.symbolic.png</file>
+    <file>css/terminio.base.css</file>
+    <file>css/terminio.base320.css</file>
+    <file>css/terminio.base.theme.css</file>
+    <file>css/terminio.Ambiance.css</file>
+    <file>css/terminio.Radiance.css</file>
+    <file>css/terminio.Adwaita.scrollbar.css</file>
+    <file>css/terminio.Lavender.scrollbar.css</file>
+    <file>css/terminio.Ambiance.scrollbar.css</file>
+    <file>css/terminio.Radiance.scrollbar.css</file>
+    <file>css/terminio.Arc.scrollbar.css</file>
+    <file>css/terminio.Arc-Dark.scrollbar.css</file>
+    <file>css/terminio.Arc-Darker.scrollbar.css</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/shortcuts.ui</file>
+  </gresource>
+</gresources>

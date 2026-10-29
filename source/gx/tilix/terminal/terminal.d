@@ -874,11 +874,11 @@ private:
      */
     GMenuItem createAddButtons() {
         GMenuItem addH = new GMenuItem(null, "session.add-right");
-        addH.setAttributeValue("verb-icon", new GVariant("tilix-add-horizontal-symbolic"));
+        addH.setAttributeValue("verb-icon", new GVariant("terminio-add-horizontal-symbolic"));
         addH.setAttributeValue("label", new GVariant(_("Add Right")));
 
         GMenuItem addV = new GMenuItem(null, "session.add-down");
-        addV.setAttributeValue("verb-icon", new GVariant("tilix-add-vertical-symbolic"));
+        addV.setAttributeValue("verb-icon", new GVariant("terminio-add-vertical-symbolic"));
         addV.setAttributeValue("label", new GVariant(_("Add Down")));
 
         GMenu addSection = new GMenu();
@@ -1709,7 +1709,7 @@ private:
             case TriggerAction.SEND_NOTIFICATION:
                 string[string] parameters = getParameters(trigger.parameters);
                 tracef("Parameters count: %d", parameters.length);
-                string title = _("Tilix Custom Notification");
+                string title = _("Terminio Custom Notification");
                 string _body;
                 if ("title" in parameters) title = parameters["title"];
                 if ("body" in parameters) _body = parameters["body"];
@@ -2281,7 +2281,7 @@ private:
                 string[string] variables;
                 variables["$TERMINAL_BG"] = rgbaTo8bitHex(vteBG,false,true);
                 variables["$TERMINAL_OPACITY"] = to!string(vteBG.alpha);
-                sbProvider = createCssProvider(APPLICATION_RESOURCE_ROOT ~ "/css/tilix." ~ theme ~ ".scrollbar.css", variables);
+                sbProvider = createCssProvider(APPLICATION_RESOURCE_ROOT ~ "/css/terminio." ~ theme ~ ".scrollbar.css", variables);
                 if (sbProvider !is null) {
                     sb.getStyleContext().addProvider(sbProvider, ProviderPriority.APPLICATION);
                 }
@@ -2734,7 +2734,7 @@ private:
                 flags = flags | GSpawnFlags.FILE_AND_ARGV_ZERO;
             }
         }
-        string[] envv = ["TILIX_ID=" ~ uuid];
+        string[] envv = ["TERMINIO_ID=" ~ uuid];
         if (tilix.isQuake) {
             envv ~= ["TILIX_QUAKE=1"];
         }

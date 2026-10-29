@@ -9,7 +9,7 @@ msgstr ""
 "PO-Revision-Date: 2020-08-20 09:36+0000\n"
 "Last-Translator: marklin0913da248e4cdada422a <marklin0913@protonmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
-"tilix/translations/zh_Hant/>\n"
+"terminio/translations/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,8 +20,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -29,7 +29,7 @@ msgid "A tiling terminal for GNOME"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
+msgid "Terminio is a tiling terminal emulator."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
@@ -88,11 +88,11 @@ msgid ""
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "Tilix 已在GNOME以及Unity環境下測試過。"
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "Terminio 已在GNOME以及Unity環境下測試過。"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
+msgid "Terminio is still looking for a new maintainer!"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
@@ -164,13 +164,13 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
@@ -281,38 +281,38 @@ msgstr ""
 # Nautilus extension
 # ******************
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "開啟遠端 Tilix"
+msgid "Open Remote Terminio"
+msgstr "開啟遠端 Terminio"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "在 {} 中開啟遠端 Tilix"
+msgid "Open Remote Terminio In {}"
+msgstr "在 {} 中開啟遠端 Terminio"
 
 # ******************
 # Nautilus extension
 # ******************
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "使用 Tilix 開啟"
+msgid "Open In Terminio"
+msgstr "使用 Terminio 開啟"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "在 {} 中開啟 Tilix"
+msgid "Open Terminio In {}"
+msgstr "在 {} 中開啟 Terminio"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "在這裡這裡開啟遠端 Tilix"
+msgid "Open Remote Terminio Here"
+msgstr "在這裡這裡開啟遠端 Terminio"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "在此目錄中開啟遠端 Tilix"
+msgid "Open Remote Terminio In This Directory"
+msgstr "在此目錄中開啟遠端 Terminio"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "在這裡開啟 Tilix"
+msgid "Open Terminio Here"
+msgstr "在這裡開啟 Terminio"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
+msgid "Open Terminio In This Directory"
 msgstr "在此目錄開啟 Terminix"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
@@ -844,8 +844,8 @@ msgstr "開啟"
 # ******************
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "使用 Tilix 開啟"
+msgid "Open in Terminio"
+msgstr "使用 Terminio 開啟"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 #, fuzzy
@@ -877,8 +877,8 @@ msgstr "版本"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Tilix 版本：%s"
+msgid "Terminio version: %s"
+msgstr "Terminio 版本：%s"
 
 #: source/app.d:179
 #, c-format
@@ -891,8 +891,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "GTK 版本：%d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Tilix 特殊功能"
+msgid "Terminio Special Features"
+msgstr "Terminio 特殊功能"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -960,8 +960,8 @@ msgid "ACTION_NAME"
 msgstr "動作名稱"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "將操作發送到當前 Tilix 實例"
+msgid "Send an action to current Terminio instance"
+msgstr "將操作發送到當前 Terminio 實例"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1018,11 +1018,11 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
+msgid "Show the Terminio and dependent component versions"
 msgstr ""
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
+msgid "Show the Terminio preferences dialog directly"
 msgstr ""
 
 #: source/gx/tilix/application.d:697
@@ -1031,7 +1031,7 @@ msgstr ""
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
 
@@ -1122,8 +1122,8 @@ msgstr "快捷鍵"
 
 #: source/gx/tilix/appwindow.d:704
 #, fuzzy
-msgid "About Tilix"
-msgstr "Tilix"
+msgid "About Terminio"
+msgstr "Terminio"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1364,7 +1364,7 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
+msgid "You can only use the action parameter within Terminio"
 msgstr ""
 
 #: source/gx/tilix/cmdparams.d:215
@@ -1393,7 +1393,7 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
 msgstr ""
 
 #: source/gx/tilix/constants.d:79
@@ -1725,7 +1725,7 @@ msgstr ""
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
 #, fuzzy
-msgid "Tilix Preferences"
+msgid "Terminio Preferences"
 msgstr "偏好設定"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
@@ -2943,8 +2943,8 @@ msgid "Restore"
 msgstr "還原"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "Tilix 自訂通知"
+msgid "Terminio Custom Notification"
+msgstr "Terminio 自訂通知"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

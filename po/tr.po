@@ -21,8 +21,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -30,8 +30,8 @@ msgid "A tiling terminal for GNOME"
 msgstr "GNOME için döşeyen bir terminal"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
-msgstr "Tilix döşeyen bir terminal emülatörüdür."
+msgid "Terminio is a tiling terminal emulator."
+msgstr "Terminio döşeyen bir terminal emülatörüdür."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
@@ -97,12 +97,12 @@ msgstr ""
 "süslemeleri kullanır, yine de gerekirse bunlar devre dışı bırakılabilir."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "Tilix, GNOME'la ve Unity ile test edilmiştir."
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "Terminio, GNOME'la ve Unity ile test edilmiştir."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
-msgstr "Tilix hala yeni bir geliştirici arıyor!"
+msgid "Terminio is still looking for a new maintainer!"
+msgstr "Terminio hala yeni bir geliştirici arıyor!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
@@ -179,17 +179,17 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
-"Tilix geliştiriciler arıyor! Şu anda çok az geliştirme yapılıyor, yeni "
+"Terminio geliştiriciler arıyor! Şu anda çok az geliştirme yapılıyor, yeni "
 "özellikler uygulanmayacak ve çekme istekleri çok yavaş incelenebilir."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr ""
-"Tilix'e yardım etmekle ilgileniyorsanız, lütfen bizimle iletişime geçin!"
+"Terminio'e yardım etmekle ilgileniyorsanız, lütfen bizimle iletişime geçin!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
 msgid "Actually install Yaru color scheme"
@@ -296,36 +296,36 @@ msgid "Some new features and bug fixes."
 msgstr "Bazı yeni özellikler ve hata düzeltmeleri."
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "Uzak Tilix Aç"
+msgid "Open Remote Terminio"
+msgstr "Uzak Terminio Aç"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "{} İçinde Uzak Tilix Aç"
+msgid "Open Remote Terminio In {}"
+msgstr "{} İçinde Uzak Terminio Aç"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "Tilix'de Aç"
+msgid "Open In Terminio"
+msgstr "Terminio'de Aç"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "{} içinde Tilix Aç"
+msgid "Open Terminio In {}"
+msgstr "{} içinde Terminio Aç"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "Burada Uzak Tilix Aç"
+msgid "Open Remote Terminio Here"
+msgstr "Burada Uzak Terminio Aç"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "Bu Dizinde Uzak Tilix Aç"
+msgid "Open Remote Terminio In This Directory"
+msgstr "Bu Dizinde Uzak Terminio Aç"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "Burada Tilix Aç"
+msgid "Open Terminio Here"
+msgstr "Burada Terminio Aç"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "Bu Dizinde Tilix Aç"
+msgid "Open Terminio In This Directory"
+msgstr "Bu Dizinde Terminio Aç"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -844,8 +844,8 @@ msgstr "Aç"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "Tilix'de Aç"
+msgid "Open in Terminio"
+msgstr "Terminio'de Aç"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -876,8 +876,8 @@ msgstr "Sürümler"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Tilix sürümü: %s"
+msgid "Terminio version: %s"
+msgstr "Terminio sürümü: %s"
 
 #: source/app.d:179
 #, c-format
@@ -890,8 +890,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "GTK Sürümü: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Tilix'e Özel Özellikler"
+msgid "Terminio Special Features"
+msgstr "Terminio'e Özel Özellikler"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -963,8 +963,8 @@ msgid "ACTION_NAME"
 msgstr "EYLEM_ADI"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "Geçerli Tilix örneğine bir eylem gönder"
+msgid "Send an action to current Terminio instance"
+msgstr "Geçerli Terminio örneğine bir eylem gönder"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1024,12 +1024,12 @@ msgstr ""
 "görünürlüğünü açar/kapar"
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
-msgstr "Tilix ve bağımlı bileşenlerin sürümlerini göster"
+msgid "Show the Terminio and dependent component versions"
+msgstr "Terminio ve bağımlı bileşenlerin sürümlerini göster"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
-msgstr "Tilix tercihleri iletişim kutusunu doğrudan göster"
+msgid "Show the Terminio preferences dialog directly"
+msgstr "Terminio tercihleri iletişim kutusunu doğrudan göster"
 
 #: source/gx/tilix/application.d:697
 msgid "GROUP_NAME"
@@ -1037,9 +1037,9 @@ msgstr "GRUP_ADI"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
-msgstr "Grup tilix örneklerini farklı işlemlere ayır (Deneysel, önerilmez)"
+msgstr "Grup terminio örneklerini farklı işlemlere ayır (Deneysel, önerilmez)"
 
 #: source/gx/tilix/application.d:700
 msgid "Hidden argument to pass terminal UUID"
@@ -1128,8 +1128,8 @@ msgid "Keyboard Shortcuts"
 msgstr "Klavye Kısayolları"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "Tilix Hakkında"
+msgid "About Terminio"
+msgstr "Terminio Hakkında"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1368,8 +1368,8 @@ msgstr ""
 "ayarlayamazsınız, lütfen birini yada diğerini seçin"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
-msgstr "Eylem parametresi yalnızca Tilix içinde kullanabilirsiniz"
+msgid "You can only use the action parameter within Terminio"
+msgstr "Eylem parametresi yalnızca Terminio içinde kullanabilirsiniz"
 
 #: source/gx/tilix/cmdparams.d:215
 msgid ""
@@ -1402,9 +1402,9 @@ msgstr ""
 "MPL/2.0/ adresinden edinilebilir."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
 msgstr ""
-"GTK VTE widget takımı, Tilix, onların çalışmaları olmadan mümkün olmayacaktı"
+"GTK VTE widget takımı, Terminio, onların çalışmaları olmadan mümkün olmayacaktı"
 
 #: source/gx/tilix/constants.d:79
 msgid "GtkD for providing such an excellent GTK wrapper"
@@ -1732,8 +1732,8 @@ msgstr ""
 "Bir eşleşme algılandığında yapılandırılmış eylem yürütülür."
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "Tilix Tercihleri"
+msgid "Terminio Preferences"
+msgstr "Terminio Tercihleri"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2929,8 +2929,8 @@ msgid "Restore"
 msgstr "Geri al"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "Tilix Özel Bildirim"
+msgid "Terminio Custom Notification"
+msgstr "Terminio Özel Bildirim"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

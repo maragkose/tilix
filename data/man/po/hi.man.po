@@ -21,8 +21,8 @@ msgstr ""
 #. type: TH
 #: ./data/man/tilix.1:3
 #, no-wrap
-msgid "TILIX"
-msgstr "TILIX"
+msgid "TERMINIO"
+msgstr "TERMINIO"
 
 #. type: TH
 #: ./data/man/tilix.1:3
@@ -39,8 +39,8 @@ msgstr "1.4.0"
 #. type: TH
 #: ./data/man/tilix.1:3
 #, no-wrap
-msgid "Tilix Commands"
-msgstr "Tilix कमांड्स"
+msgid "Terminio Commands"
+msgstr "Terminio कमांड्स"
 
 #. type: SH
 #: ./data/man/tilix.1:4
@@ -50,8 +50,8 @@ msgstr "नाम"
 
 #. type: Plain text
 #: ./data/man/tilix.1:6
-msgid "B<tilix> - Tiling GTK3 terminal emulator for GNOME"
-msgstr "B<tilix> - GNOME के लिए टाइलिंग GTK3 टर्मिनल एमुलेटर"
+msgid "B<terminio> - Tiling GTK3 terminal emulator for GNOME"
+msgstr "B<terminio> - GNOME के लिए टाइलिंग GTK3 टर्मिनल एमुलेटर"
 
 #. type: SH
 #: ./data/man/tilix.1:6
@@ -61,8 +61,8 @@ msgstr "सारांश"
 
 #. type: Plain text
 #: ./data/man/tilix.1:9
-msgid "B<tilix> [I<options>]"
-msgstr "B<tilix> [I<options>]"
+msgid "B<terminio> [I<options>]"
+msgstr "B<terminio> [I<options>]"
 
 #. type: SH
 #: ./data/man/tilix.1:9
@@ -73,10 +73,10 @@ msgstr "विवरण"
 #. type: Plain text
 #: ./data/man/tilix.1:11
 msgid ""
-"B<tilix> is an advanced GTK3 tiling terminal emulator designed to adhere to "
+"B<terminio> is an advanced GTK3 tiling terminal emulator designed to adhere to "
 "GNOME Human Interface Guidelines."
 msgstr ""
-"B<tilix> एक उन्नत GTK3 टाइलिंग टर्मिनल एमुलेटर है जिसे GNOME ह्यूमन इंटरफ़ेस "
+"B<terminio> एक उन्नत GTK3 टाइलिंग टर्मिनल एमुलेटर है जिसे GNOME ह्यूमन इंटरफ़ेस "
 "दिशानिर्देशों का पालन करने के लिए डिज़ाइन किया गया है।"
 
 #. type: SH
@@ -87,8 +87,8 @@ msgstr "विकल्प"
 
 #. type: Plain text
 #: ./data/man/tilix.1:13
-msgid "The B<tilix> application accepts the following command line parameters:"
-msgstr "B<tilix> एप्लिकेशन निम्नलिखित कमांड लाइन पैरामीटर स्वीकार करता है:"
+msgid "The B<terminio> application accepts the following command line parameters:"
+msgstr "B<terminio> एप्लिकेशन निम्नलिखित कमांड लाइन पैरामीटर स्वीकार करता है:"
 
 #. type: TP
 #: ./data/man/tilix.1:13
@@ -109,7 +109,7 @@ msgstr "B<-v --version>"
 
 #. type: Plain text
 #: ./data/man/tilix.1:19
-msgid "Show the version of Tilix as well as the versions of dependent components."
+msgid "Show the version of Terminio as well as the versions of dependent components."
 msgstr "टिलिक्स के वर्शन के साथ-साथ आश्रित घटकों के वर्शन भी दिखाएँ।"
 
 #. type: TP
@@ -175,8 +175,8 @@ msgstr "B<-a --action=ACTION_NAME>"
 
 #. type: Plain text
 #: ./data/man/tilix.1:34
-msgid "Perform one of the following actions in the current Tilix instance:"
-msgstr "वर्तमान Tilix उदाहरण में निम्नलिखित में से एक क्रिया निष्पादित करें:"
+msgid "Perform one of the following actions in the current Terminio instance:"
+msgstr "वर्तमान Terminio उदाहरण में निम्नलिखित में से एक क्रिया निष्पादित करें:"
 
 #. type: Plain text
 #: ./data/man/tilix.1:37
@@ -190,13 +190,13 @@ msgstr "B<session-add-down> वर्तमान टर्मिनल के �
 
 #. type: Plain text
 #: ./data/man/tilix.1:43
-msgid "B<app-new-session> Create a new Tilix session within the current window."
-msgstr "B<app-new-session> वर्तमान विंडो के भीतर एक नया Tilix सत्र बनाएं।"
+msgid "B<app-new-session> Create a new Terminio session within the current window."
+msgstr "B<app-new-session> वर्तमान विंडो के भीतर एक नया Terminio सत्र बनाएं।"
 
 #. type: Plain text
 #: ./data/man/tilix.1:46
-msgid "B<app-new-window> Create a new Tilix window."
-msgstr "B<app-new-window> एक नई Tilix विंडो बनाएं।"
+msgid "B<app-new-window> Create a new Terminio window."
+msgstr "B<app-new-window> एक नई Terminio विंडो बनाएं।"
 
 #. type: TP
 #: ./data/man/tilix.1:46
@@ -297,17 +297,17 @@ msgstr "B<--new-process>"
 #. type: Plain text
 #: ./data/man/tilix.1:79
 msgid ""
-"Start an additional Tilix instance as a new process. By default and as per "
-"GTK+ version 3 guidelines, Tilix maintains a single process that all windows "
-"belong to. This option forces Tilix to start as a separate process. This is "
+"Start an additional Terminio instance as a new process. By default and as per "
+"GTK+ version 3 guidelines, Terminio maintains a single process that all windows "
+"belong to. This option forces Terminio to start as a separate process. This is "
 "not recommended and only intended for debugging purposes. Its use will "
-"prevent different Tilix windows from communicating with each other."
+"prevent different Terminio windows from communicating with each other."
 msgstr ""
-"एक नई प्रक्रिया के रूप में एक अतिरिक्त Tilix इंस्टेंस प्रारंभ करें। डिफ़ॉल्ट "
-"रूप से और GTK+ वर्शन 3 दिशानिर्देशों के अनुसार, Tilix एक एकल प्रक्रिया बनाए "
-"रखता है जिससे सभी विंडो संबंधित होती हैं। यह विकल्प Tilix को एक अलग प्रक्रिया"
+"एक नई प्रक्रिया के रूप में एक अतिरिक्त Terminio इंस्टेंस प्रारंभ करें। डिफ़ॉल्ट "
+"रूप से और GTK+ वर्शन 3 दिशानिर्देशों के अनुसार, Terminio एक एकल प्रक्रिया बनाए "
+"रखता है जिससे सभी विंडो संबंधित होती हैं। यह विकल्प Terminio को एक अलग प्रक्रिया"
 " के रूप में शुरू करने के लिए बाध्य करता है। यह अनुशंसित नहीं है और केवल "
-"डिबगिंग उद्देश्यों के लिए है। इसका उपयोग विभिन्न Tilix विंडो को एक दूसरे के "
+"डिबगिंग उद्देश्यों के लिए है। इसका उपयोग विभिन्न Terminio विंडो को एक दूसरे के "
 "साथ संचार करने से रोकेगा।"
 
 #. type: TP
@@ -343,8 +343,8 @@ msgstr "B<--preferences>"
 
 #. type: Plain text
 #: ./data/man/tilix.1:88
-msgid "Show the Tilix preferences dialog directly."
-msgstr "Tilix प्राथमिकताएँ संवाद सीधे दिखाएँ।"
+msgid "Show the Terminio preferences dialog directly."
+msgstr "Terminio प्राथमिकताएँ संवाद सीधे दिखाएँ।"
 
 #. type: TP
 #: ./data/man/tilix.1:88

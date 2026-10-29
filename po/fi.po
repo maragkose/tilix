@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tilix\n"
+"Project-Id-Version: terminio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 21:52+0100\n"
 "PO-Revision-Date: 2025-02-04 13:02+0000\n"
@@ -21,8 +21,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -30,8 +30,8 @@ msgid "A tiling terminal for GNOME"
 msgstr "Laatoittava pääte Gnomelle"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
-msgstr "Tilix on laatoittava pääte-emulaattori."
+msgid "Terminio is a tiling terminal emulator."
+msgstr "Terminio on laatoittava pääte-emulaattori."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
@@ -100,12 +100,12 @@ msgstr ""
 "asiakaspuolen koristeita, vaikka se voidaan tarvittaessa poistaa käytöstä."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "Tilix on testattu Gnomessa ja Unityssa."
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "Terminio on testattu Gnomessa ja Unityssa."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
-msgstr "Tilix etsii edelleen uutta ylläpitäjää!"
+msgid "Terminio is still looking for a new maintainer!"
+msgstr "Terminio etsii edelleen uutta ylläpitäjää!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
@@ -179,17 +179,17 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
-"Tilix etsii ylläpitäjiä! Tällä hetkellä huoltotöitä tehdään vain hyvin "
+"Terminio etsii ylläpitäjiä! Tällä hetkellä huoltotöitä tehdään vain hyvin "
 "vähän, uusia ominaisuuksia ei oteta käyttöön ja vetopyyntöjä voidaan "
 "tarkastella hyvin hitaasti."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
-msgstr "Jos olet kiinnostunut auttamaan Tilixiä, ota yhteyttä!"
+msgid "If you are interested in helping Terminio, please chime in!"
+msgstr "Jos olet kiinnostunut auttamaan Terminioiä, ota yhteyttä!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
 msgid "Actually install Yaru color scheme"
@@ -296,36 +296,36 @@ msgid "Some new features and bug fixes."
 msgstr ""
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "Avaa etä-Tilix"
+msgid "Open Remote Terminio"
+msgstr "Avaa etä-Terminio"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "Avaa etä-Tilixilla {}"
+msgid "Open Remote Terminio In {}"
+msgstr "Avaa etä-Terminioilla {}"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "Avaa Tilixissä"
+msgid "Open In Terminio"
+msgstr "Avaa Terminioissä"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "Avaa Tilixilla {}"
+msgid "Open Terminio In {}"
+msgstr "Avaa Terminioilla {}"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "Avaa etä-Tilix tähän"
+msgid "Open Remote Terminio Here"
+msgstr "Avaa etä-Terminio tähän"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "Avaa etä-Tilix tähän hakemistoon"
+msgid "Open Remote Terminio In This Directory"
+msgstr "Avaa etä-Terminio tähän hakemistoon"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "Avaa Tilix tähän"
+msgid "Open Terminio Here"
+msgstr "Avaa Terminio tähän"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "Avaa Tilix tähän hakemistoon"
+msgid "Open Terminio In This Directory"
+msgstr "Avaa Terminio tähän hakemistoon"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -845,8 +845,8 @@ msgstr "Avaa"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "Avaa Tilixissä"
+msgid "Open in Terminio"
+msgstr "Avaa Terminioissä"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -881,8 +881,8 @@ msgstr "Versiot"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Tilix-versio: %s"
+msgid "Terminio version: %s"
+msgstr "Terminio-versio: %s"
 
 #: source/app.d:179
 #, c-format
@@ -895,8 +895,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "GTK-versio: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Tilixin erikoisominaisuudet"
+msgid "Terminio Special Features"
+msgstr "Terminioin erikoisominaisuudet"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -964,8 +964,8 @@ msgid "ACTION_NAME"
 msgstr "TOIMINNON_NIMI"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "Lähetä toiminto nykyiselle Tilix-istunnolle"
+msgid "Send an action to current Terminio instance"
+msgstr "Lähetä toiminto nykyiselle Terminio-istunnolle"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1023,12 +1023,12 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
-msgstr "Näytä Tilix ja siitä riippuvaisten komponenttien versiot"
+msgid "Show the Terminio and dependent component versions"
+msgstr "Näytä Terminio ja siitä riippuvaisten komponenttien versiot"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
-msgstr "Näytä Tilixin asetusikkuna suoraan"
+msgid "Show the Terminio preferences dialog directly"
+msgstr "Näytä Terminioin asetusikkuna suoraan"
 
 #: source/gx/tilix/application.d:697
 msgid "GROUP_NAME"
@@ -1036,9 +1036,9 @@ msgstr "RYHMÄN _NIMI"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
-msgstr "Ryhmitä Tilix-instanssit eri prosesseihin (kokeellinen, ei suositeltu)"
+msgstr "Ryhmitä Terminio-instanssit eri prosesseihin (kokeellinen, ei suositeltu)"
 
 #: source/gx/tilix/application.d:700
 msgid "Hidden argument to pass terminal UUID"
@@ -1126,8 +1126,8 @@ msgid "Keyboard Shortcuts"
 msgstr "Pikanäppäimet"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "Tietoja - Tilix"
+msgid "About Terminio"
+msgstr "Tietoja - Terminio"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1366,8 +1366,8 @@ msgstr ""
 "komentovalitsinta; valitse jompikumpi"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
-msgstr "Voit käyttää toimintoparametria vain Tilixissä"
+msgid "You can only use the action parameter within Terminio"
+msgstr "Voit käyttää toimintoparametria vain Terminioissä"
 
 #: source/gx/tilix/cmdparams.d:215
 msgid ""
@@ -1400,9 +1400,9 @@ msgstr ""
 "sellaisen osoitteesta https://www.mozilla.org/en-US/MPL/2.0/."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
 msgstr ""
-"GTK VTE widget -tiimi, Tilixin toteutus ei olisi ollut mahdollista ilman "
+"GTK VTE widget -tiimi, Terminioin toteutus ei olisi ollut mahdollista ilman "
 "heidän työtään"
 
 #: source/gx/tilix/constants.d:79
@@ -1732,8 +1732,8 @@ msgstr ""
 "määritetty toiminto."
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "Tilix-asetukset"
+msgid "Terminio Preferences"
+msgstr "Terminio-asetukset"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2935,8 +2935,8 @@ msgid "Restore"
 msgstr "Palauta"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "Tilixin mukautettu ilmoitus"
+msgid "Terminio Custom Notification"
+msgstr "Terminioin mukautettu ilmoitus"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

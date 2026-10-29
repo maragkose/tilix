@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tilix\n"
+"Project-Id-Version: terminio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 21:52+0100\n"
 "PO-Revision-Date: 2023-11-10 19:36+0000\n"
@@ -22,8 +22,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -31,8 +31,8 @@ msgid "A tiling terminal for GNOME"
 msgstr "Pločasti terminal za GNOME"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
-msgstr "Tilix je pločasti emulator terminala."
+msgid "Terminio is a tiling terminal emulator."
+msgstr "Terminio je pločasti emulator terminala."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
@@ -100,12 +100,12 @@ msgstr ""
 "ali se to po potrebi može deaktivirati."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "Tilix je testiran s okruženjima GNOME i Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "Terminio je testiran s okruženjima GNOME i Unity."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
-msgstr "Tilix još uvijek traži novog održavatelja!"
+msgid "Terminio is still looking for a new maintainer!"
+msgstr "Terminio još uvijek traži novog održavatelja!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
@@ -180,17 +180,17 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
-"Tilix traži održavatelje! Trenutačno se provodi samo vrlo minimalno "
+"Terminio traži održavatelje! Trenutačno se provodi samo vrlo minimalno "
 "održavanje, nove značajke se ne implementiraju, a zahtjevi za povlačenje se "
 "pregledavaju vrlo sporo."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
-msgstr "Ako želiš pomoći Tilixu, pridruži se projektu!"
+msgid "If you are interested in helping Terminio, please chime in!"
+msgstr "Ako želiš pomoći Terminiou, pridruži se projektu!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
 msgid "Actually install Yaru color scheme"
@@ -303,36 +303,36 @@ msgid "Some new features and bug fixes."
 msgstr "Neke nove značajke i ispravci grešaka."
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "Otvori udaljeni Tilix"
+msgid "Open Remote Terminio"
+msgstr "Otvori udaljeni Terminio"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "Otvori udaljeni Tilix u {}"
+msgid "Open Remote Terminio In {}"
+msgstr "Otvori udaljeni Terminio u {}"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "Otvori u Tilixu"
+msgid "Open In Terminio"
+msgstr "Otvori u Terminiou"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "Otvori Tilix u {}"
+msgid "Open Terminio In {}"
+msgstr "Otvori Terminio u {}"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "Otvori udaljeni Tilix ovdje"
+msgid "Open Remote Terminio Here"
+msgstr "Otvori udaljeni Terminio ovdje"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "Otvori udaljeni Tilix u ovoj mapi"
+msgid "Open Remote Terminio In This Directory"
+msgstr "Otvori udaljeni Terminio u ovoj mapi"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "Otvori Tilix ovdje"
+msgid "Open Terminio Here"
+msgstr "Otvori Terminio ovdje"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "Otvori Tilix u ovoj mapi"
+msgid "Open Terminio In This Directory"
+msgstr "Otvori Terminio u ovoj mapi"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -851,8 +851,8 @@ msgstr "Otvori"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "Otvori u Tilixu"
+msgid "Open in Terminio"
+msgstr "Otvori u Terminiou"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -883,8 +883,8 @@ msgstr "Verzije"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Tilix verzija: %s"
+msgid "Terminio version: %s"
+msgstr "Terminio verzija: %s"
 
 #: source/app.d:179
 #, c-format
@@ -897,8 +897,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "GTK verzija: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Posebne Tilix funkcije"
+msgid "Terminio Special Features"
+msgstr "Posebne Terminio funkcije"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -966,8 +966,8 @@ msgid "ACTION_NAME"
 msgstr "IME_RADNJE"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "Pošalji jednu radnju trenutačnom Tilix primjerku"
+msgid "Send an action to current Terminio instance"
+msgstr "Pošalji jednu radnju trenutačnom Terminio primjerku"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1028,12 +1028,12 @@ msgstr ""
 "Quake modusu"
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
-msgstr "Prikaži verzije Tilixa i ovisnih komponenti"
+msgid "Show the Terminio and dependent component versions"
+msgstr "Prikaži verzije Terminioa i ovisnih komponenti"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
-msgstr "Prikaži dijaloški okvir postavki Tilixa izravno"
+msgid "Show the Terminio preferences dialog directly"
+msgstr "Prikaži dijaloški okvir postavki Terminioa izravno"
 
 #: source/gx/tilix/application.d:697
 msgid "GROUP_NAME"
@@ -1041,10 +1041,10 @@ msgstr "IME_GRUPE"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
-"Grupiraj tilix instance u različite procese (eksperimentalno, ne preporučuje "
+"Grupiraj terminio instance u različite procese (eksperimentalno, ne preporučuje "
 "se)"
 
 #: source/gx/tilix/application.d:700
@@ -1134,8 +1134,8 @@ msgid "Keyboard Shortcuts"
 msgstr "Tipkovni prečaci"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "O Tilixu"
+msgid "About Terminio"
+msgstr "O Terminiou"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1372,8 +1372,8 @@ msgstr ""
 "Odaberi jedno ili drugo"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
-msgstr "Parametar radnje možeš koristiti samo unutar Tilixa"
+msgid "You can only use the action parameter within Terminio"
+msgstr "Parametar radnje možeš koristiti samo unutar Terminioa"
 
 #: source/gx/tilix/cmdparams.d:215
 msgid ""
@@ -1406,9 +1406,9 @@ msgstr ""
 "je dobiti na http://mozilla.org/MPL/2.0/."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
 msgstr ""
-"Tim GTK programčića virtualnih emulatora terminala (VTE). Tilix ne bi bio "
+"Tim GTK programčića virtualnih emulatora terminala (VTE). Terminio ne bi bio "
 "moguć bez njihovog rada"
 
 #: source/gx/tilix/constants.d:79
@@ -1737,8 +1737,8 @@ msgstr ""
 "terminalu. Kad dođe do poklapanja, izvršava se konfigurirana radnja."
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "Tilix postavke"
+msgid "Terminio Preferences"
+msgstr "Terminio postavke"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2937,8 +2937,8 @@ msgid "Restore"
 msgstr "Obnovi"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "Prilagođene Tilix obavijesti"
+msgid "Terminio Custom Notification"
+msgstr "Prilagođene Terminio obavijesti"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

@@ -21,8 +21,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -30,8 +30,8 @@ msgid "A tiling terminal for GNOME"
 msgstr "Dlaždicový terminál pro GNOME"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
-msgstr "Tilix je dlaždicový emulátor terminálu."
+msgid "Terminio is a tiling terminal emulator."
+msgstr "Terminio je dlaždicový emulátor terminálu."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
@@ -91,16 +91,16 @@ msgid ""
 "decorations, though it can be disabled if necessary."
 msgstr ""
 "Tato aplikace je napsána pomocí GTK 3 a snahou bylo zůstat v souladu se "
-"Zásadami lidského rozhraní (HIG) GNOME. Ve výsledku tedy Tilix využívá "
+"Zásadami lidského rozhraní (HIG) GNOME. Ve výsledku tedy Terminio využívá "
 "dekorace na straně klienta, umí je však v případě nutnosti i vypnout."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "Tilix je testován v GNOME a Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "Terminio je testován v GNOME a Unity."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
-msgstr "Tilix stále hledá nového správce!"
+msgid "Terminio is still looking for a new maintainer!"
+msgstr "Terminio stále hledá nového správce!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
@@ -171,13 +171,13 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
@@ -285,36 +285,36 @@ msgid "Some new features and bug fixes."
 msgstr ""
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "Otevřít vzdálený Tilix"
+msgid "Open Remote Terminio"
+msgstr "Otevřít vzdálený Terminio"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "Otevřít v {} vzdálený Tilix"
+msgid "Open Remote Terminio In {}"
+msgstr "Otevřít v {} vzdálený Terminio"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "Otevřít v Tilix"
+msgid "Open In Terminio"
+msgstr "Otevřít v Terminio"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "Otevřít v {} Tilix"
+msgid "Open Terminio In {}"
+msgstr "Otevřít v {} Terminio"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "Otevřít zde vzdálený Tilix"
+msgid "Open Remote Terminio Here"
+msgstr "Otevřít zde vzdálený Terminio"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "Otevřít v tomto adresáři vzdálený Tilix"
+msgid "Open Remote Terminio In This Directory"
+msgstr "Otevřít v tomto adresáři vzdálený Terminio"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "Otevřít zde Tilix"
+msgid "Open Terminio Here"
+msgstr "Otevřít zde Terminio"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "Otevřít v tomto adresáři Tilix"
+msgid "Open Terminio In This Directory"
+msgstr "Otevřít v tomto adresáři Terminio"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -835,8 +835,8 @@ msgstr "Otevřít"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "Otevřít v Tilix"
+msgid "Open in Terminio"
+msgstr "Otevřít v Terminio"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -867,8 +867,8 @@ msgstr "Verze"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Verze Tilix: %s"
+msgid "Terminio version: %s"
+msgstr "Verze Terminio: %s"
 
 #: source/app.d:179
 #, c-format
@@ -881,8 +881,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "Verze GTK: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Zvláštní funkce v Tilix"
+msgid "Terminio Special Features"
+msgstr "Zvláštní funkce v Terminio"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -950,8 +950,8 @@ msgid "ACTION_NAME"
 msgstr "NÁZEV_AKCE"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "Poslat akci běžící instanci Tilix"
+msgid "Send an action to current Terminio instance"
+msgstr "Poslat akci běžící instanci Terminio"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1012,12 +1012,12 @@ msgstr ""
 
 #: source/gx/tilix/application.d:695
 #, fuzzy
-msgid "Show the Tilix and dependent component versions"
-msgstr "Zobrazit verzi Tilixu a součástí na kterých závisí"
+msgid "Show the Terminio and dependent component versions"
+msgstr "Zobrazit verzi Terminiou a součástí na kterých závisí"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
-msgstr "Zobrazit přímo dialog s předvolbami pro Tilix"
+msgid "Show the Terminio preferences dialog directly"
+msgstr "Zobrazit přímo dialog s předvolbami pro Terminio"
 
 #: source/gx/tilix/application.d:697
 #, fuzzy
@@ -1026,10 +1026,10 @@ msgstr "NÁZEV_PROFILU"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
-"Seskupovat instanci tilix do různých procesů (experimentální, nedoporučováno)"
+"Seskupovat instanci terminio do různých procesů (experimentální, nedoporučováno)"
 
 #: source/gx/tilix/application.d:700
 msgid "Hidden argument to pass terminal UUID"
@@ -1118,8 +1118,8 @@ msgid "Keyboard Shortcuts"
 msgstr "Klávesové zkratky"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "O aplikaci Tilix"
+msgid "About Terminio"
+msgstr "O aplikaci Terminio"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1359,8 +1359,8 @@ msgstr ""
 "adresáře / prováděného příkazu. Zvolte jen jedno nebo druhé"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
-msgstr "Parametr akce můžete použít jen v rámci Tilix"
+msgid "You can only use the action parameter within Terminio"
+msgstr "Parametr akce můžete použít jen v rámci Terminio"
 
 #: source/gx/tilix/cmdparams.d:215
 msgid ""
@@ -1393,8 +1393,8 @@ msgstr ""
 "ji získat na http://mozilla.org/MPL/2.0/."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
-msgstr "Tým GTK pro widget VTE. Tilix by bez jejich práce nebyl možný"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
+msgstr "Tým GTK pro widget VTE. Terminio by bez jejich práce nebyl možný"
 
 #: source/gx/tilix/constants.d:79
 msgid "GtkD for providing such an excellent GTK wrapper"
@@ -1722,8 +1722,8 @@ msgstr ""
 "terminálu. Když je nalezena shoda, provede se nastavená činnost."
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "Předvolby pro Tilix"
+msgid "Terminio Preferences"
+msgstr "Předvolby pro Terminio"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2919,8 +2919,8 @@ msgid "Restore"
 msgstr "Obnovit"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "Uživatelské oznamování z Tilix"
+msgid "Terminio Custom Notification"
+msgstr "Uživatelské oznamování z Terminio"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tilix\n"
+"Project-Id-Version: terminio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 21:52+0100\n"
 "PO-Revision-Date: 2025-04-20 22:01+0000\n"
@@ -730,7 +730,7 @@ msgid "Help"
 msgstr "உதவி"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
+msgid "Terminio Preferences"
 msgstr "டிலிக்ச் விருப்பத்தேர்வுகள்"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
@@ -1295,7 +1295,7 @@ msgstr "வரவு"
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
-msgid "Tilix"
+msgid "Terminio"
 msgstr "டிலிக்ச்"
 
 #: source/gx/tilix/application.d:679
@@ -1331,7 +1331,7 @@ msgid "SESSION_NAME"
 msgstr "Session_name"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
+msgid "Send an action to current Terminio instance"
 msgstr "தற்போதைய டிலிக்ச் நிகழ்வுக்கு ஒரு செயலை அனுப்பவும்"
 
 #: source/gx/tilix/application.d:684
@@ -1397,16 +1397,16 @@ msgstr ""
 "சாளரத் தெரிவுநிலையை மாற்றுகிறது"
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
+msgid "Show the Terminio and dependent component versions"
 msgstr "டிலிக்ச் மற்றும் சார்பு கூறு பதிப்புகளைக் காட்டு"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
+msgid "Show the Terminio preferences dialog directly"
 msgstr "டிலிக்ச் விருப்பத்தேர்வுகள் உரையாடலை நேரடியாகக் காட்டுங்கள்"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
 "குழு டிலிக்ச் நிகழ்வுகள் வெவ்வேறு செயல்முறைகளாக (சோதனை, பரிந்துரைக்கப்படவில்லை)"
@@ -1504,7 +1504,7 @@ msgid "Keyboard Shortcuts"
 msgstr "விசைப்பலகை குறுக்குவழிகள்"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
+msgid "About Terminio"
 msgstr "டிலிக்ச் பற்றி"
 
 #: source/gx/tilix/appwindow.d:711
@@ -1580,7 +1580,7 @@ msgstr ""
 "http://mozilla.org/mpl/2.0/."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
 msgstr ""
 "சி.டி.கே வி.டி.இ விட்செட் குழு, டிலிக்ச் அவர்களின் வேலை இல்லாமல் சாத்தியமில்லை"
 
@@ -2019,7 +2019,7 @@ msgid "Restore"
 msgstr "மீட்டமை"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
+msgid "Terminio Custom Notification"
 msgstr "டிலிக்ச் தனிப்பயன் அறிவிப்பு"
 
 #: source/gx/tilix/terminal/terminal.d:1810
@@ -2170,7 +2170,7 @@ msgstr ""
 "முடியாது, தயவுசெய்து ஒன்று அல்லது மற்றொன்றைத் தேர்வுசெய்க"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
+msgid "You can only use the action parameter within Terminio"
 msgstr "நீங்கள் டிலிக்சுக்குள் செயல் அளவுருவை மட்டுமே பயன்படுத்த முடியும்"
 
 #: source/gx/tilix/cmdparams.d:215
@@ -2207,7 +2207,7 @@ msgstr "பதிப்புகள்"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
+msgid "Terminio version: %s"
 msgstr "டிலிக்ச் பதிப்பு: %s"
 
 #: source/app.d:179
@@ -2221,7 +2221,7 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "சி.டி.கே பதிப்பு:%d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
+msgid "Terminio Special Features"
 msgstr "டிலிக்ச் சிறப்பு நற்பொருத்தங்கள்"
 
 #: source/app.d:182
@@ -2237,35 +2237,35 @@ msgid "Badges enabled=%b"
 msgstr "பேட்ச்கள் இயக்கப்பட்டவை =%பி"
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
+msgid "Open Remote Terminio"
 msgstr "ரிமோட் டிலிக்ச் திறக்கவும்"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
+msgid "Open Remote Terminio In {}"
 msgstr "{In இல் தொலைநிலை டிலிக்ச் திறக்கவும்"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
+msgid "Open In Terminio"
 msgstr "டிலிக்சில் திறந்திருக்கும்"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
+msgid "Open Terminio In {}"
 msgstr "{} இல் டிலிக்ச் திறக்கவும்"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
+msgid "Open Remote Terminio Here"
 msgstr "தொலைதூரத்தில் இங்கே திறக்கவும்"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
+msgid "Open Remote Terminio In This Directory"
 msgstr "இந்த கோப்பகத்தில் தொலைநிலை டிலிக்ச் திறக்கவும்"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
+msgid "Open Terminio Here"
 msgstr "இங்கே திறந்திருக்கும் டிலிக்ச்"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
+msgid "Open Terminio In This Directory"
 msgstr "இந்த கோப்பகத்தில் டிலிக்ச் திறக்கவும்"
 
 #: data/resources/ui/shortcuts.ui:10 data/resources/ui/shortcuts.ui:15
@@ -2765,7 +2765,7 @@ msgstr "திற"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
+msgid "Open in Terminio"
 msgstr "டிலிக்சில் திறந்திருக்கும்"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
@@ -2783,7 +2783,7 @@ msgid "shell;prompt;command;commandline;cmd;"
 msgstr "செல்; வரியில்; கட்டளை; கட்டளைவரி; கட்வ;"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
+msgid "Terminio is a tiling terminal emulator."
 msgstr "டிலிக்ச் ஒரு டைலிங் டெர்மினல் முன்மாதிரி."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
@@ -2851,11 +2851,11 @@ msgstr ""
 "பக்க-அறிமுகங்களைப் பயன்படுத்துகிறது, இருப்பினும் தேவைப்பட்டால் அது முடக்கப்படலாம்."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
 msgstr "டிலிக்ச் க்னோம் மற்றும் ஒற்றுமையுடன் சோதிக்கப்பட்டுள்ளது."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
+msgid "Terminio is still looking for a new maintainer!"
 msgstr "டிலிக்ச் இன்னும் ஒரு புதிய பராமரிப்பாளரைத் தேடுகிறார்!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
@@ -2931,7 +2931,7 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
@@ -2940,7 +2940,7 @@ msgstr ""
 "கோரிக்கைகள் மிக மெதுவாக மதிப்பாய்வு செய்யப்படலாம்."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr "டிலிக்ச் உதவ நீங்கள் ஆர்வமாக இருந்தால், தயவுசெய்து உள்ளே செல்லுங்கள்!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87

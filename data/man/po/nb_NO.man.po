@@ -21,8 +21,8 @@ msgstr ""
 #. type: TH
 #: data/man/tilix.1:3
 #, no-wrap
-msgid "TILIX"
-msgstr "TILIX"
+msgid "TERMINIO"
+msgstr "TERMINIO"
 
 #. type: TH
 #: data/man/tilix.1:3
@@ -39,8 +39,8 @@ msgstr "1.4.0"
 #. type: TH
 #: data/man/tilix.1:3
 #, no-wrap
-msgid "Tilix Commands"
-msgstr "Tilix-kommandoer"
+msgid "Terminio Commands"
+msgstr "Terminio-kommandoer"
 
 #. type: SH
 #: data/man/tilix.1:4
@@ -50,8 +50,8 @@ msgstr "NAVN"
 
 #. type: Plain text
 #: data/man/tilix.1:6
-msgid "B<tilix> - Tiling GTK3 terminal emulator for GNOME"
-msgstr "B<tilix> - Flisbasert GTK3-terminalemulator for GNOME"
+msgid "B<terminio> - Tiling GTK3 terminal emulator for GNOME"
+msgstr "B<terminio> - Flisbasert GTK3-terminalemulator for GNOME"
 
 #. type: SH
 #: data/man/tilix.1:6
@@ -61,8 +61,8 @@ msgstr "SAMMENDRAG"
 
 #. type: Plain text
 #: data/man/tilix.1:9
-msgid "B<tilix> [I<options>]"
-msgstr "B<tilix> [I<valg>]"
+msgid "B<terminio> [I<options>]"
+msgstr "B<terminio> [I<valg>]"
 
 #. type: SH
 #: data/man/tilix.1:9
@@ -77,10 +77,10 @@ msgstr "BESKRIVELSE"
 #| "B<tilix> is an advanced GTK3 tiling terminal emulator designed to adhere "
 #| "to Gnome Human Interface Guidelines."
 msgid ""
-"B<tilix> is an advanced GTK3 tiling terminal emulator designed to adhere to "
+"B<terminio> is an advanced GTK3 tiling terminal emulator designed to adhere to "
 "GNOME Human Interface Guidelines."
 msgstr ""
-"B<tilix> er en avansert flisbasert terminalemulator for GTK3, designet i "
+"B<terminio> er en avansert flisbasert terminalemulator for GTK3, designet i "
 "henhold til retningslinjene for Gnome menneskelige grensesnitt."
 
 #. type: SH
@@ -91,8 +91,8 @@ msgstr "VALG"
 
 #. type: Plain text
 #: data/man/tilix.1:13
-msgid "The B<tilix> application accepts the following command line parameters:"
-msgstr "B<tilix>-programmer godtar følgende kommandolinjeparameter:"
+msgid "The B<terminio> application accepts the following command line parameters:"
+msgstr "B<terminio>-programmer godtar følgende kommandolinjeparameter:"
 
 #. type: TP
 #: data/man/tilix.1:13
@@ -114,8 +114,8 @@ msgstr "B<-v --version>"
 #. type: Plain text
 #: data/man/tilix.1:19
 msgid ""
-"Show the version of Tilix as well as the versions of dependent components."
-msgstr "Vis versjonen av Tilix og dens avhengigheter."
+"Show the version of Terminio as well as the versions of dependent components."
+msgstr "Vis versjonen av Terminio og dens avhengigheter."
 
 #. type: TP
 #: data/man/tilix.1:19
@@ -174,7 +174,7 @@ msgid ""
 "from. This will not restore the terminal to where it was left off, rather "
 "new terminals are created."
 msgstr ""
-"Åpne angitt tidligere lagret øktfil. De lagres fra Tilix, og lagrer hele "
+"Åpne angitt tidligere lagret øktfil. De lagres fra Terminio, og lagrer hele "
 "oppsettet av en økt, noe som tillater brukeren å laste den inn igjen ved "
 "behov. Merk at bare oppsettet og oppsettsvalgene lagres, dette vil ikke "
 "tilbakestille terminalen til der den ble forlatt, snarere blir nye "
@@ -192,9 +192,9 @@ msgstr "B<-a --action=HANDLINGS_NAVN>"
 #| msgid ""
 #| "Perform an action in the current Tilix instance, the following actions "
 #| "are supported:"
-msgid "Perform one of the following actions in the current Tilix instance:"
+msgid "Perform one of the following actions in the current Terminio instance:"
 msgstr ""
-"Utfør en handling i nåværende Tilix-instans, følgende handling støttes:"
+"Utfør en handling i nåværende Terminio-instans, følgende handling støttes:"
 
 #. type: Plain text
 #: data/man/tilix.1:37
@@ -222,15 +222,15 @@ msgstr ""
 #| msgid ""
 #| "B<app-new-session> Creates a new Tilix session within the current window."
 msgid ""
-"B<app-new-session> Create a new Tilix session within the current window."
-msgstr "B<app-new-session> Oppretter en ny Tilix-økt i gjeldende vindu."
+"B<app-new-session> Create a new Terminio session within the current window."
+msgstr "B<app-new-session> Oppretter en ny Terminio-økt i gjeldende vindu."
 
 #. type: Plain text
 #: data/man/tilix.1:46
 #, fuzzy
 #| msgid "B<app-new-window> Creates a new Tilix window."
-msgid "B<app-new-window> Create a new Tilix window."
-msgstr "B<app-new-window> Oppretter et nytt Tilix-vindu."
+msgid "B<app-new-window> Create a new Terminio window."
+msgstr "B<app-new-window> Oppretter et nytt Terminio-vindu."
 
 #. type: TP
 #: data/man/tilix.1:46
@@ -341,17 +341,17 @@ msgstr "B<--new-process>"
 #: data/man/tilix.1:79
 #, fuzzy
 msgid ""
-"Start an additional Tilix instance as a new process. By default and as per "
-"GTK+ version 3 guidelines, Tilix maintains a single process that all windows "
-"belong to. This option forces Tilix to start as a separate process. This is "
+"Start an additional Terminio instance as a new process. By default and as per "
+"GTK+ version 3 guidelines, Terminio maintains a single process that all windows "
+"belong to. This option forces Terminio to start as a separate process. This is "
 "not recommended and only intended for debugging purposes. Its use will "
-"prevent different Tilix windows from communicating with each other."
+"prevent different Terminio windows from communicating with each other."
 msgstr ""
-"Start en ytterligere Tilix-instans som en ny prosess. Som forvalg og i "
-"henhold til GTK3+retningslinjer, forvalter Tilix én prosess som alle vindu "
-"tilhører. Dette valget tvinger Tilix til å starte en separat prosess. Dette "
+"Start en ytterligere Terminio-instans som en ny prosess. Som forvalg og i "
+"henhold til GTK3+retningslinjer, forvalter Terminio én prosess som alle vindu "
+"tilhører. Dette valget tvinger Terminio til å starte en separat prosess. Dette "
 "anbefales ikke, og er kun tiltenkt feilrettingsøyemed, bruk av dette valget "
-"vil forhindre andre Tilix-vindu fra å snakke med hverandre."
+"vil forhindre andre Terminio-vindu fra å snakke med hverandre."
 
 #. type: TP
 #: data/man/tilix.1:79
@@ -390,8 +390,8 @@ msgstr "B<--preferences>"
 
 #. type: Plain text
 #: data/man/tilix.1:88
-msgid "Show the Tilix preferences dialog directly."
-msgstr "Direktevisning av Tilix-innstillingsdialogen."
+msgid "Show the Terminio preferences dialog directly."
+msgstr "Direktevisning av Terminio-innstillingsdialogen."
 
 #. type: TP
 #: data/man/tilix.1:88

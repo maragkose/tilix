@@ -24,8 +24,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -33,8 +33,8 @@ msgid "A tiling terminal for GNOME"
 msgstr "Тайлинговый терминал для GNOME"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
-msgstr "Tilix является тайлинговым эмулятором терминала."
+msgid "Terminio is a tiling terminal emulator."
+msgstr "Terminio является тайлинговым эмулятором терминала."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
@@ -102,12 +102,12 @@ msgstr ""
 "клиента, но при необходимости может существовать и без них."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "Tilix был протестирован с GNOME и Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "Terminio был протестирован с GNOME и Unity."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
-msgstr "Tilix всё ещё в поисках мейнтейнера!"
+msgid "Terminio is still looking for a new maintainer!"
+msgstr "Terminio всё ещё в поисках мейнтейнера!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
@@ -184,18 +184,18 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
-"Tilix ищет сопровождающих! На данный момент выполняется минимальное "
+"Terminio ищет сопровождающих! На данный момент выполняется минимальное "
 "обслуживание, никакие новые функции не будут реализованы, а запросы на "
 "слияние могут рассматриваться очень медленно."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr ""
-"Если вы заинтересованы в том, чтобы помочь Tilix, пожалуйста, "
+"Если вы заинтересованы в том, чтобы помочь Terminio, пожалуйста, "
 "присоединяйтесь!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
@@ -306,36 +306,36 @@ msgid "Some new features and bug fixes."
 msgstr "Некоторые новые функции и исправления ошибок."
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "Открыть удалённый Tilix"
+msgid "Open Remote Terminio"
+msgstr "Открыть удалённый Terminio"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "Открыть удалённый Tilix в {}"
+msgid "Open Remote Terminio In {}"
+msgstr "Открыть удалённый Terminio в {}"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "Открыть в Tilix"
+msgid "Open In Terminio"
+msgstr "Открыть в Terminio"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "Открыть Tilix в {}"
+msgid "Open Terminio In {}"
+msgstr "Открыть Terminio в {}"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "Открыть удалённый Tilix здесь"
+msgid "Open Remote Terminio Here"
+msgstr "Открыть удалённый Terminio здесь"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "Открыть удалённый Tilix в этой папке"
+msgid "Open Remote Terminio In This Directory"
+msgstr "Открыть удалённый Terminio в этой папке"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "Открыть Tilix здесь"
+msgid "Open Terminio Here"
+msgstr "Открыть Terminio здесь"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "Открыть Tilix в этой папке"
+msgid "Open Terminio In This Directory"
+msgstr "Открыть Terminio в этой папке"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -854,8 +854,8 @@ msgstr "Открыть"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "Открыть в Tilix"
+msgid "Open in Terminio"
+msgstr "Открыть в Terminio"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -886,8 +886,8 @@ msgstr "Версии"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Версия Tilix: %s"
+msgid "Terminio version: %s"
+msgstr "Версия Terminio: %s"
 
 #: source/app.d:179
 #, c-format
@@ -900,8 +900,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "Версия GTK: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Особые возможности Tilix"
+msgid "Terminio Special Features"
+msgstr "Особые возможности Terminio"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -975,8 +975,8 @@ msgid "ACTION_NAME"
 msgstr "ИМЯ-ДЕЙСТВИЯ"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "Отправить действие в текущий экземпляр Tilix"
+msgid "Send an action to current Terminio instance"
+msgstr "Отправить действие в текущий экземпляр Terminio"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1037,12 +1037,12 @@ msgstr ""
 "Открывает новое или показывает/скрывает существующее окно в выпадающем режиме"
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
-msgstr "Показать версии Tilix и зависимых компонентов"
+msgid "Show the Terminio and dependent component versions"
+msgstr "Показать версии Terminio и зависимых компонентов"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
-msgstr "Показать только диалог настроек Tilix"
+msgid "Show the Terminio preferences dialog directly"
+msgstr "Показать только диалог настроек Terminio"
 
 #: source/gx/tilix/application.d:697
 msgid "GROUP_NAME"
@@ -1050,10 +1050,10 @@ msgstr "ИМЯ_ГРУППЫ"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
-"Группировать экземпляры tilix в разные процессы (экспериментальный, не "
+"Группировать экземпляры terminio в разные процессы (экспериментальный, не "
 "рекомендуется)"
 
 #: source/gx/tilix/application.d:700
@@ -1143,8 +1143,8 @@ msgid "Keyboard Shortcuts"
 msgstr "Комбинации клавиш"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "О Tilix"
+msgid "About Terminio"
+msgstr "О Terminio"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1381,8 +1381,8 @@ msgstr ""
 "command параметры, пожалуйста, выберите что-то одно"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
-msgstr "Вы можете использовать параметр action только внутри Tilix"
+msgid "You can only use the action parameter within Terminio"
+msgstr "Вы можете использовать параметр action только внутри Terminio"
 
 #: source/gx/tilix/cmdparams.d:215
 msgid ""
@@ -1415,8 +1415,8 @@ msgstr ""
 "ее по этому адресу http://mozilla.org/MPL/2.0/."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
-msgstr "Tilix не был бы возможен без работы команды виджета GTK VTE"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
+msgstr "Terminio не был бы возможен без работы команды виджета GTK VTE"
 
 #: source/gx/tilix/constants.d:79
 msgid "GtkD for providing such an excellent GTK wrapper"
@@ -1745,8 +1745,8 @@ msgstr ""
 "действие."
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "Параметры Tilix"
+msgid "Terminio Preferences"
+msgstr "Параметры Terminio"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2947,8 +2947,8 @@ msgid "Restore"
 msgstr "Восстановить"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "Пользовательские нотификации Tilix"
+msgid "Terminio Custom Notification"
+msgstr "Пользовательские нотификации Terminio"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

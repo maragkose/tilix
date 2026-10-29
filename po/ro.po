@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tilix\n"
+"Project-Id-Version: terminio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 21:52+0100\n"
 "PO-Revision-Date: 2020-04-03 03:09+0000\n"
@@ -22,8 +22,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -31,8 +31,8 @@ msgid "A tiling terminal for GNOME"
 msgstr "Un terminal fără suprapunere pentru GNOME"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
-msgstr "Tilix este un emulator de terminal fără suprapunere."
+msgid "Terminio is a tiling terminal emulator."
+msgstr "Terminio este un emulator de terminal fără suprapunere."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
@@ -98,13 +98,13 @@ msgstr ""
 "folosește decorații de la client, deși pot fi dezactivate dacă e necesar."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "Tilix a fost testat cu GNOME și cu Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "Terminio a fost testat cu GNOME și cu Unity."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
 #, fuzzy
-msgid "Tilix is still looking for a new maintainer!"
-msgstr "Tilix este un emulator de terminal fără suprapunere."
+msgid "Terminio is still looking for a new maintainer!"
+msgstr "Terminio este un emulator de terminal fără suprapunere."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
@@ -175,13 +175,13 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
@@ -289,36 +289,36 @@ msgid "Some new features and bug fixes."
 msgstr ""
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "Deschide Tilix La Distanță"
+msgid "Open Remote Terminio"
+msgstr "Deschide Terminio La Distanță"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "Deschide Tilix la Distanță în {}"
+msgid "Open Remote Terminio In {}"
+msgstr "Deschide Terminio la Distanță în {}"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "Deschide în Tilix"
+msgid "Open In Terminio"
+msgstr "Deschide în Terminio"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "Deschide Tilix în {}"
+msgid "Open Terminio In {}"
+msgstr "Deschide Terminio în {}"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "Deschide Tilix la Distanță Aici"
+msgid "Open Remote Terminio Here"
+msgstr "Deschide Terminio la Distanță Aici"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "Deschide Tilix la Distanță în Acest Director"
+msgid "Open Remote Terminio In This Directory"
+msgstr "Deschide Terminio la Distanță în Acest Director"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "Deschide Tilix Aici"
+msgid "Open Terminio Here"
+msgstr "Deschide Terminio Aici"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "Deschide Tilix în Acest Director"
+msgid "Open Terminio In This Directory"
+msgstr "Deschide Terminio în Acest Director"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -839,8 +839,8 @@ msgstr "Deschide"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "Deschide în Tilix"
+msgid "Open in Terminio"
+msgstr "Deschide în Terminio"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -873,8 +873,8 @@ msgstr "Versiuni"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Versiunea Tilix: %s"
+msgid "Terminio version: %s"
+msgstr "Versiunea Terminio: %s"
 
 #: source/app.d:179
 #, c-format
@@ -887,8 +887,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "Versiunea GTK: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Funcționalități Speciale Tilix"
+msgid "Terminio Special Features"
+msgstr "Funcționalități Speciale Terminio"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -956,8 +956,8 @@ msgid "ACTION_NAME"
 msgstr "NUME_ACȚIUNE"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "Trimite o acțiune către instanța curentă de Tilix"
+msgid "Send an action to current Terminio instance"
+msgstr "Trimite o acțiune către instanța curentă de Terminio"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1019,12 +1019,12 @@ msgstr ""
 
 #: source/gx/tilix/application.d:695
 #, fuzzy
-msgid "Show the Tilix and dependent component versions"
-msgstr "Afișează versiunea lui Tilix și versiunile componentelor dependente"
+msgid "Show the Terminio and dependent component versions"
+msgstr "Afișează versiunea lui Terminio și versiunile componentelor dependente"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
-msgstr "Afișează direct dialogul preferințelor Tilix"
+msgid "Show the Terminio preferences dialog directly"
+msgstr "Afișează direct dialogul preferințelor Terminio"
 
 #: source/gx/tilix/application.d:697
 #, fuzzy
@@ -1033,10 +1033,10 @@ msgstr "NUME_PROFIL"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
-"Grupează instanțele Tilix în diferite procese (experimental, nerecomandat)"
+"Grupează instanțele Terminio în diferite procese (experimental, nerecomandat)"
 
 #: source/gx/tilix/application.d:700
 msgid "Hidden argument to pass terminal UUID"
@@ -1124,8 +1124,8 @@ msgid "Keyboard Shortcuts"
 msgstr "Prescurtări din Tastatură"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "Despre Tilix"
+msgid "About Terminio"
+msgstr "Despre Terminio"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1366,8 +1366,8 @@ msgstr ""
 "ori alta"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
-msgstr "Poți folosi parametrul de acțiune doar în cadrul Tilix"
+msgid "You can only use the action parameter within Terminio"
+msgstr "Poți folosi parametrul de acțiune doar în cadrul Terminio"
 
 #: source/gx/tilix/cmdparams.d:215
 msgid ""
@@ -1400,8 +1400,8 @@ msgstr ""
 "obține una la http://mozilla.org/MPL/2.0/."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
-msgstr "Echipa de widgets GTK VTE, Tilix nu ar fi posibil fără munca lor"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
+msgstr "Echipa de widgets GTK VTE, Terminio nu ar fi posibil fără munca lor"
 
 #: source/gx/tilix/constants.d:79
 msgid "GtkD for providing such an excellent GTK wrapper"
@@ -1729,8 +1729,8 @@ msgstr ""
 "terminal. Când are loc o găsire, acțiunea configurată se execută."
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "Preferințe Tilix"
+msgid "Terminio Preferences"
+msgstr "Preferințe Terminio"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2933,7 +2933,7 @@ msgid "Restore"
 msgstr "Restabilește"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
+msgid "Terminio Custom Notification"
 msgstr "Notificare personalizată"
 
 #: source/gx/tilix/terminal/terminal.d:1810

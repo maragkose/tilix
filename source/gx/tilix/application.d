@@ -159,7 +159,7 @@ private:
 
             //Check if tilix has a theme specific CSS file to load
             string theme = getGtkTheme();
-            string cssURI = APPLICATION_RESOURCE_ROOT ~ "/css/tilix." ~ theme ~ ".css";
+            string cssURI = APPLICATION_RESOURCE_ROOT ~ "/css/terminio." ~ theme ~ ".css";
             themeCssProvider = addCssProvider(cssURI, ProviderPriority.APPLICATION);
             if (!themeCssProvider) {
                 tracef("No specific CSS found %s", cssURI);
@@ -395,7 +395,7 @@ private:
     }
 
     ProcessInformation getProcessesInformation() {
-        ProcessInformation result = ProcessInformation(ProcessInfoSource.APPLICATION, _("Tilix"), "", []);
+        ProcessInformation result = ProcessInformation(ProcessInfoSource.APPLICATION, _("Terminio"), "", []);
         foreach(window; appWindows) {
             ProcessInformation winInfo = window.getProcessInformation();
             if (winInfo.children.length > 0) {
@@ -551,7 +551,7 @@ private:
             themeCssProvider = null;
         }
         //Check if tilix has a theme specific CSS file to load
-        string cssURI = APPLICATION_RESOURCE_ROOT ~ "/css/tilix." ~ theme ~ ".css";
+        string cssURI = APPLICATION_RESOURCE_ROOT ~ "/css/terminio." ~ theme ~ ".css";
         themeCssProvider = addCssProvider(cssURI, ProviderPriority.APPLICATION);
         if (!themeCssProvider) {
             tracef("No specific CSS found %s", cssURI);
@@ -762,7 +762,7 @@ private:
         addMainOption(CMD_TITLE, 't', GOptionFlags.NONE, GOptionArg.STRING, _("Set the title of the new terminal"), _("TITLE"));
         addMainOption(CMD_SESSION, 's', GOptionFlags.NONE, GOptionArg.STRING_ARRAY, _("Open the specified session"), _("SESSION_NAME"));
         if (Version.checkVersion(3, 16, 0).length ==0) {
-            addMainOption(CMD_ACTION, 'a', GOptionFlags.NONE, GOptionArg.STRING, _("Send an action to current Tilix instance"), _("ACTION_NAME"));
+            addMainOption(CMD_ACTION, 'a', GOptionFlags.NONE, GOptionArg.STRING, _("Send an action to current Terminio instance"), _("ACTION_NAME"));
         }
         addMainOption(CMD_COMMAND, 'e', GOptionFlags.NONE, GOptionArg.STRING, _("Execute the parameter as a command"), _("COMMAND"));
         addMainOption(CMD_MAXIMIZE, '\0', GOptionFlags.NONE, GOptionArg.NONE, _("Maximize the terminal window"), null);
@@ -773,8 +773,8 @@ private:
         addMainOption(CMD_NEW_PROCESS, '\0', GOptionFlags.NONE, GOptionArg.NONE, _("Start additional instance as new process (Not Recommended)"), null);
         addMainOption(CMD_GEOMETRY, '\0', GOptionFlags.NONE, GOptionArg.STRING, _("Set the window size; for example: 80x24, or 80x24+200+200 (COLSxROWS+X+Y)"), _("GEOMETRY"));
         addMainOption(CMD_QUAKE, 'q', GOptionFlags.NONE, GOptionArg.NONE, _("Opens a window in quake mode or toggles existing quake mode window visibility"), null);
-        addMainOption(CMD_VERSION, 'v', GOptionFlags.NONE, GOptionArg.NONE, _("Show the Tilix and dependent component versions"), null);
-        addMainOption(CMD_PREFERENCES, '\0', GOptionFlags.NONE, GOptionArg.NONE, _("Show the Tilix preferences dialog directly"), null);
+        addMainOption(CMD_VERSION, 'v', GOptionFlags.NONE, GOptionArg.NONE, _("Show the Terminio and dependent component versions"), null);
+        addMainOption(CMD_PREFERENCES, '\0', GOptionFlags.NONE, GOptionArg.NONE, _("Show the Terminio preferences dialog directly"), null);
         addMainOption(CMD_GROUP, 'g', GOptionFlags.NONE, GOptionArg.STRING, _("Group tilix instances into different processes (Experimental, not recommended)"), _("GROUP_NAME"));
 
         //Hidden options used to communicate with primary instance

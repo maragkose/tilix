@@ -1,5 +1,5 @@
 {
-    "name": "tilix",
+    "name": "terminio",
     "description": "A VTE based terminal emulator for Linux",
     "copyright": "Copyright © 2016, Gerald Nunn",
     "authors": ["Gerald Nunn"],

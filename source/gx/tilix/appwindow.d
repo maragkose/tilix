@@ -371,12 +371,12 @@ private:
         mbSessionActions.add(iHamburger);
         mbSessionActions.setPopover(createPopover(mbSessionActions));
 
-        Button btnAddHorizontal = new Button("tilix-add-horizontal-symbolic", IconSize.MENU);
+        Button btnAddHorizontal = new Button("terminio-add-horizontal-symbolic", IconSize.MENU);
         btnAddHorizontal.setDetailedActionName(getActionDetailedName(ACTION_PREFIX, ACTION_SESSION_ADD_RIGHT));
         btnAddHorizontal.setFocusOnClick(false);
         btnAddHorizontal.setTooltipText(_("Add terminal right"));
 
-        Button btnAddVertical = new Button("tilix-add-vertical-symbolic", IconSize.MENU);
+        Button btnAddVertical = new Button("terminio-add-vertical-symbolic", IconSize.MENU);
         btnAddVertical.setDetailedActionName(getActionDetailedName(ACTION_PREFIX, ACTION_SESSION_ADD_DOWN));
         btnAddVertical.setTooltipText(_("Add terminal down"));
         btnAddVertical.setFocusOnClick(false);
@@ -705,7 +705,7 @@ private:
         GMenu mPrefSection = new GMenu();
         mPrefSection.appendItem(new GMenuItem(_("Preferences"), getActionDetailedName(ACTION_PREFIX_APP, ACTION_PREFERENCES)));
         mPrefSection.appendItem(new GMenuItem(_("Keyboard Shortcuts"), getActionDetailedName(ACTION_PREFIX_APP, ACTION_SHORTCUTS)));
-        mPrefSection.append(_("About Tilix"), getActionDetailedName(ACTION_PREFIX_APP, ACTION_ABOUT));
+        mPrefSection.append(_("About Terminio"), getActionDetailedName(ACTION_PREFIX_APP, ACTION_ABOUT));
 
 
         model.appendSection(null, mPrefSection);
@@ -1702,7 +1702,7 @@ public:
         gsSettings.addOnChanged(delegate(string key, GSettings) {
             applyPreference(key);
         });
-        setTitle(_("Tilix"));
+        setTitle(_("Terminio"));
         setIconName(APPLICATION_ICON_NAME);
         setWindowStyle();
         loadRecentSessionFileList();

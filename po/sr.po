@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tilix\n"
+"Project-Id-Version: terminio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 21:52+0100\n"
 "PO-Revision-Date: 2021-01-07 10:29+0000\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
+msgid "Terminio"
 msgstr "Тајликс"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
@@ -31,7 +31,7 @@ msgid "A tiling terminal for GNOME"
 msgstr "Плочасти терминал за Гном"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
+msgid "Terminio is a tiling terminal emulator."
 msgstr "Тајликс је плочасти опонашавач терминала."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
@@ -101,12 +101,12 @@ msgstr ""
 "потребно."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
 msgstr "Тајликс је испробан на Гному и Јунитију."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
 #, fuzzy
-msgid "Tilix is still looking for a new maintainer!"
+msgid "Terminio is still looking for a new maintainer!"
 msgstr "Тајликс је плочасти опонашавач терминала."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
@@ -178,13 +178,13 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
@@ -292,35 +292,35 @@ msgid "Some new features and bug fixes."
 msgstr ""
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
+msgid "Open Remote Terminio"
 msgstr "Отвори удаљени Тајликс"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
+msgid "Open Remote Terminio In {}"
 msgstr "Отвори удаљени Тајликс у {}"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
+msgid "Open In Terminio"
 msgstr "Отвори у Тајликсу"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
+msgid "Open Terminio In {}"
 msgstr "Отвори Тајликс у {}"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
+msgid "Open Remote Terminio Here"
 msgstr "Отвори удаљени Тајликс овде"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
+msgid "Open Remote Terminio In This Directory"
 msgstr "Отвори удаљени Тајликс у овој фасцикли"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
+msgid "Open Terminio Here"
 msgstr "Отвори Тајликс овде"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
+msgid "Open Terminio In This Directory"
 msgstr "Отвори Тајликс у овој фасцикли"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
@@ -844,7 +844,7 @@ msgstr "Отвори"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
+msgid "Open in Terminio"
 msgstr "Отвори у Тајликсу"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
@@ -876,7 +876,7 @@ msgstr "Издања"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
+msgid "Terminio version: %s"
 msgstr "Издање Тајликса: %s"
 
 #: source/app.d:179
@@ -890,7 +890,7 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "Издање ГТК-а: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
+msgid "Terminio Special Features"
 msgstr "Посебне могућности Тајликса"
 
 #: source/app.d:182
@@ -959,7 +959,7 @@ msgid "ACTION_NAME"
 msgstr "ИМЕ_РАДЊЕ"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
+msgid "Send an action to current Terminio instance"
 msgstr "Пошаљи радњу у тренутни примерак Тајликса"
 
 #: source/gx/tilix/application.d:686
@@ -1020,11 +1020,11 @@ msgstr ""
 
 #: source/gx/tilix/application.d:695
 #, fuzzy
-msgid "Show the Tilix and dependent component versions"
+msgid "Show the Terminio and dependent component versions"
 msgstr "Прикажи издање Тајликса и пратећих делова"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
+msgid "Show the Terminio preferences dialog directly"
 msgstr "Прикажи прозорче поставки Тајликса директно"
 
 #: source/gx/tilix/application.d:697
@@ -1034,7 +1034,7 @@ msgstr "ИМЕ_ПРОФИЛА"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
 "Групиши тајликс примерке програма у другачије процесе (у пробној фази, није "
@@ -1126,7 +1126,7 @@ msgid "Keyboard Shortcuts"
 msgstr "Пречице на тастатури"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
+msgid "About Terminio"
 msgstr "О Тајликсу"
 
 #: source/gx/tilix/appwindow.d:711
@@ -1367,7 +1367,7 @@ msgstr ""
 "изаберите једно или друго"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
+msgid "You can only use the action parameter within Terminio"
 msgstr "Можете користити параметар радње само унутар Тајликса"
 
 #: source/gx/tilix/cmdparams.d:215
@@ -1401,7 +1401,7 @@ msgstr ""
 "можете добити примерак на адреси http://mozilla.org/MPL/2.0/."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
 msgstr "Екипа иза ГТК ВТЕ виџета, без њиховог рада Тајликс не би био могућ"
 
 #: source/gx/tilix/constants.d:79
@@ -1730,7 +1730,7 @@ msgstr ""
 "терминалу. Када се подударање пронађе, подешена радња се изврши."
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
+msgid "Terminio Preferences"
 msgstr "Поставке Тајликса"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
@@ -2928,7 +2928,7 @@ msgid "Restore"
 msgstr "Поврати"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
+msgid "Terminio Custom Notification"
 msgstr "Прилагођено Тајликс обавештење"
 
 #: source/gx/tilix/terminal/terminal.d:1810

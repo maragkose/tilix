@@ -379,7 +379,7 @@ public:
         EMPTY_ATTRIBUTES = createHashTable();
         attrID = toStringz(ATTRIBUTE_ID);
         attrDescription = toStringz(ATTRIBUTE_DESCRIPTION);
-        descriptionValue = toStringz("Tilix Password");
+        descriptionValue = toStringz("Terminio Password");
         trace("Retrieving secret service");
         createSchema();
         createUI();

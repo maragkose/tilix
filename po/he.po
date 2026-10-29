@@ -21,8 +21,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -30,8 +30,8 @@ msgid "A tiling terminal for GNOME"
 msgstr "מסוף בריצוף עבור GNOME"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
-msgstr "Tilix הוא מדמה מסוף עם ריצוף."
+msgid "Terminio is a tiling terminal emulator."
+msgstr "Terminio הוא מדמה מסוף עם ריצוף."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
@@ -91,12 +91,12 @@ msgstr ""
 "GNOME. כתוצאה מכך, נעשה שימוש בקישוטי צד־לקוח, אם כי ניתן להשביתם בעת הצורך."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "Tilix נבדק עם GNOME ועם Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "Terminio נבדק עם GNOME ועם Unity."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
-msgstr "Tilix עדיין מחפש מתחזקים חדשים!"
+msgid "Terminio is still looking for a new maintainer!"
+msgstr "Terminio עדיין מחפש מתחזקים חדשים!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
@@ -169,16 +169,16 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
-"ל־Tilix דרושים מתחזקים! כרגע מתבצעת תחזוקה מזערית ביותר, לא מוטמעות יכולות "
+"ל־Terminio דרושים מתחזקים! כרגע מתבצעת תחזוקה מזערית ביותר, לא מוטמעות יכולות "
 "חדשות ובקשות דחיפה נסקרות באטיות מחרידה."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
-msgstr "אם מעניין אותך לסייע ל־Tilix, נשמח לשמוע ממך!"
+msgid "If you are interested in helping Terminio, please chime in!"
+msgstr "אם מעניין אותך לסייע ל־Terminio, נשמח לשמוע ממך!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
 msgid "Actually install Yaru color scheme"
@@ -285,36 +285,36 @@ msgid "Some new features and bug fixes."
 msgstr "תכונות ותיקונים קטנים חדשים."
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "פתיחה ב־Tilix מרוחק"
+msgid "Open Remote Terminio"
+msgstr "פתיחה ב־Terminio מרוחק"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "פתיחת Tilix מרוחק ב־{}"
+msgid "Open Remote Terminio In {}"
+msgstr "פתיחת Terminio מרוחק ב־{}"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "פתיחה ב־Tilix"
+msgid "Open In Terminio"
+msgstr "פתיחה ב־Terminio"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "פתיחת Tilix ב־{}"
+msgid "Open Terminio In {}"
+msgstr "פתיחת Terminio ב־{}"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "פתיחת Tilix כאן"
+msgid "Open Remote Terminio Here"
+msgstr "פתיחת Terminio כאן"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "פתיחת Tilix בתיקייה זו"
+msgid "Open Remote Terminio In This Directory"
+msgstr "פתיחת Terminio בתיקייה זו"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "פתיחת Tilix כאן"
+msgid "Open Terminio Here"
+msgstr "פתיחת Terminio כאן"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "פתיחת Tilix בתיקייה זו"
+msgid "Open Terminio In This Directory"
+msgstr "פתיחת Terminio בתיקייה זו"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -833,8 +833,8 @@ msgstr "פתיחה"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "פתיחה ב־Tilix"
+msgid "Open in Terminio"
+msgstr "פתיחה ב־Terminio"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -865,8 +865,8 @@ msgstr "גרסאות"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "הגרסה של Tilix‏: %s"
+msgid "Terminio version: %s"
+msgstr "הגרסה של Terminio‏: %s"
 
 #: source/app.d:179
 #, c-format
@@ -879,8 +879,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "גרסת GTK‏: ‎%d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "תכונות מיוחדות של Tilix"
+msgid "Terminio Special Features"
+msgstr "תכונות מיוחדות של Terminio"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -950,8 +950,8 @@ msgid "ACTION_NAME"
 msgstr "שם_פעולה"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "שליחת פעולה למופע ה־Tilix הנוכחי"
+msgid "Send an action to current Terminio instance"
+msgstr "שליחת פעולה למופע ה־Terminio הנוכחי"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1008,12 +1008,12 @@ msgid ""
 msgstr "פותח את החלון במצב Quake או מחליף את מצב quake בתצוגת החלון הנוכחי"
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
-msgstr "הצגת גרסאות ה־Tilix והרכיב התלוי"
+msgid "Show the Terminio and dependent component versions"
+msgstr "הצגת גרסאות ה־Terminio והרכיב התלוי"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
-msgstr "הצגת חלון ההעדפות של Tilix ישירות"
+msgid "Show the Terminio preferences dialog directly"
+msgstr "הצגת חלון ההעדפות של Terminio ישירות"
 
 #: source/gx/tilix/application.d:697
 msgid "GROUP_NAME"
@@ -1021,9 +1021,9 @@ msgstr "שם_קבוצה"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
-msgstr "קיבוץ מופעים של Tilix לתהליכים שונים (ניסיוני, לא מומלץ)"
+msgstr "קיבוץ מופעים של Terminio לתהליכים שונים (ניסיוני, לא מומלץ)"
 
 #: source/gx/tilix/application.d:700
 msgid "Hidden argument to pass terminal UUID"
@@ -1111,8 +1111,8 @@ msgid "Keyboard Shortcuts"
 msgstr "קיצורי מקלדת"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "על אודות Tilix"
+msgid "About Terminio"
+msgstr "על אודות Terminio"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1349,8 +1349,8 @@ msgstr ""
 "נא לבחור האחד או האחר"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
-msgstr "ניתן להשתמש במשתנה הפעולה בתוך Tilix"
+msgid "You can only use the action parameter within Terminio"
+msgstr "ניתן להשתמש במשתנה הפעולה בתוך Terminio"
 
 #: source/gx/tilix/cmdparams.d:215
 msgid ""
@@ -1382,8 +1382,8 @@ msgstr ""
 "MPL/2.0/."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
-msgstr "צוות הווידג׳ט GTK VTE, שלולא עבודתם לא היה לנו את Tilix"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
+msgstr "צוות הווידג׳ט GTK VTE, שלולא עבודתם לא היה לנו את Terminio"
 
 #: source/gx/tilix/constants.d:79
 msgid "GtkD for providing such an excellent GTK wrapper"
@@ -1710,8 +1710,8 @@ msgstr ""
 "התאמה מופעלת הפעולה שהוגדרה."
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "העדפות Tilix"
+msgid "Terminio Preferences"
+msgstr "העדפות Terminio"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2901,8 +2901,8 @@ msgid "Restore"
 msgstr "שחזור"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "התראות מותאמות אישית של Tilix"
+msgid "Terminio Custom Notification"
+msgstr "התראות מותאמות אישית של Terminio"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

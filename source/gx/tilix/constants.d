@@ -24,7 +24,7 @@ immutable bool USE_PIXBUF_DND = false;
 immutable bool CLIPBOARD_BTN_IN_CONTEXT = false;
 
 /**
- * All logs go to the file /tmp/tilix.log, useful
+ * All logs go to the file /tmp/terminio.log, useful
  * when debugging launchers or other spots where
  * stdout isn't easily viewed.
  */
@@ -57,7 +57,7 @@ enum GTK_VERSION_PATCH = 0;
 enum GTK_SCROLLEDWINDOW_VERSION = 22;
 
 // GetText Domain
-enum TILIX_DOMAIN = "tilix";
+enum TILIX_DOMAIN = "terminio";
 
 /**
  * Application ID
@@ -75,7 +75,7 @@ enum APPLICATION_ICON_NAME = "io.github.maragkose.Terminio";
 
 immutable string[] APPLICATION_AUTHORS = [APPLICATION_AUTHOR];
 string[] APPLICATION_CREDITS = [
-    N_("GTK VTE widget team, Tilix would not be possible without their work"),
+    N_("GTK VTE widget team, Terminio would not be possible without their work"),
     N_("GtkD for providing such an excellent GTK wrapper"),
     N_("Dlang.org for such an excellent language, D")
 ];
@@ -106,13 +106,13 @@ enum ACTION_SHORTCUTS = "shortcuts";
 enum ACTION_NEW_WINDOW = "new-window";
 
 //Config Folder
-enum APPLICATION_CONFIG_FOLDER = "tilix";
+enum APPLICATION_CONFIG_FOLDER = "terminio";
 
 //RESOURCES
-enum APPLICATION_RESOURCES = buildPath(APPLICATION_CONFIG_FOLDER, "resources/tilix.gresource");
-enum APPLICATION_RESOURCE_ROOT = "/com/gexperts/Tilix";
-immutable string[] APPLICATION_CSS_RESOURCES = ["css/tilix.base.css","css/tilix.base320.css"];
-immutable string[] THEME_CSS_RESOURCES = ["css/tilix.base.theme.css"];
+enum APPLICATION_RESOURCES = buildPath(APPLICATION_CONFIG_FOLDER, "resources/terminio.gresource");
+enum APPLICATION_RESOURCE_ROOT = "/io/github/maragkose/Terminio";
+immutable string[] APPLICATION_CSS_RESOURCES = ["css/terminio.base.css","css/terminio.base320.css"];
+immutable string[] THEME_CSS_RESOURCES = ["css/terminio.base.theme.css"];
 
 immutable string SHORTCUT_UI_RESOURCE = APPLICATION_RESOURCE_ROOT ~ "/ui/shortcuts.ui";
 immutable string SHORTCUT_LOCALIZATION_CONTEXT = "shortcut window";

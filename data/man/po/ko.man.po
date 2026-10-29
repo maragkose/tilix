@@ -21,8 +21,8 @@ msgstr ""
 #. type: TH
 #: ./data/man/tilix.1:3
 #, no-wrap
-msgid "TILIX"
-msgstr "TILIX"
+msgid "TERMINIO"
+msgstr "TERMINIO"
 
 #. type: TH
 #: ./data/man/tilix.1:3
@@ -39,8 +39,8 @@ msgstr "1.4.0"
 #. type: TH
 #: ./data/man/tilix.1:3
 #, no-wrap
-msgid "Tilix Commands"
-msgstr "Tilix 명령"
+msgid "Terminio Commands"
+msgstr "Terminio 명령"
 
 #. type: SH
 #: ./data/man/tilix.1:4
@@ -50,8 +50,8 @@ msgstr "이름"
 
 #. type: Plain text
 #: ./data/man/tilix.1:6
-msgid "B<tilix> - Tiling GTK3 terminal emulator for GNOME"
-msgstr "B<tilix> - GNOME용 타일링 GTK3 터미널 에뮬레이터"
+msgid "B<terminio> - Tiling GTK3 terminal emulator for GNOME"
+msgstr "B<terminio> - GNOME용 타일링 GTK3 터미널 에뮬레이터"
 
 #. type: SH
 #: ./data/man/tilix.1:6
@@ -61,8 +61,8 @@ msgstr "개요"
 
 #. type: Plain text
 #: ./data/man/tilix.1:9
-msgid "B<tilix> [I<options>]"
-msgstr "B<tilix> [I<옵션>]"
+msgid "B<terminio> [I<options>]"
+msgstr "B<terminio> [I<옵션>]"
 
 #. type: SH
 #: ./data/man/tilix.1:9
@@ -73,9 +73,9 @@ msgstr "설명"
 #. type: Plain text
 #: ./data/man/tilix.1:11
 msgid ""
-"B<tilix> is an advanced GTK3 tiling terminal emulator designed to adhere to "
+"B<terminio> is an advanced GTK3 tiling terminal emulator designed to adhere to "
 "GNOME Human Interface Guidelines."
-msgstr "B<tilix>는 GNOME 휴먼 인터페이스 지침을 준수하도록 설계된 고급 GTK3 타일링 "
+msgstr "B<terminio>는 GNOME 휴먼 인터페이스 지침을 준수하도록 설계된 고급 GTK3 타일링 "
 "터미널 에뮬레이터입니다."
 
 #. type: SH
@@ -86,8 +86,8 @@ msgstr "옵션"
 
 #. type: Plain text
 #: ./data/man/tilix.1:13
-msgid "The B<tilix> application accepts the following command line parameters:"
-msgstr "B<tilix> 애플리케이션은 다음 명령줄 매개변수를 허용합니다:"
+msgid "The B<terminio> application accepts the following command line parameters:"
+msgstr "B<terminio> 애플리케이션은 다음 명령줄 매개변수를 허용합니다:"
 
 #. type: TP
 #: ./data/man/tilix.1:13
@@ -108,8 +108,8 @@ msgstr "B<-v --version>"
 
 #. type: Plain text
 #: ./data/man/tilix.1:19
-msgid "Show the version of Tilix as well as the versions of dependent components."
-msgstr "Tilix의 버전과 종속 구성 요소의 버전을 표시합니다."
+msgid "Show the version of Terminio as well as the versions of dependent components."
+msgstr "Terminio의 버전과 종속 구성 요소의 버전을 표시합니다."
 
 #. type: TP
 #: ./data/man/tilix.1:19
@@ -171,8 +171,8 @@ msgstr "B<-a --action=작업_이름>"
 
 #. type: Plain text
 #: ./data/man/tilix.1:34
-msgid "Perform one of the following actions in the current Tilix instance:"
-msgstr "현재 Tilix 인스턴스에서 다음 작업 중 하나를 수행합니다:"
+msgid "Perform one of the following actions in the current Terminio instance:"
+msgstr "현재 Terminio 인스턴스에서 다음 작업 중 하나를 수행합니다:"
 
 #. type: Plain text
 #: ./data/man/tilix.1:37
@@ -186,13 +186,13 @@ msgstr "B<session-add-down> 현재 터미널 아래에 새 터미널을 추가�
 
 #. type: Plain text
 #: ./data/man/tilix.1:43
-msgid "B<app-new-session> Create a new Tilix session within the current window."
-msgstr "B<app-new-session> 현재 창 내에서 새로운 Tilix 세션을 만듭니다."
+msgid "B<app-new-session> Create a new Terminio session within the current window."
+msgstr "B<app-new-session> 현재 창 내에서 새로운 Terminio 세션을 만듭니다."
 
 #. type: Plain text
 #: ./data/man/tilix.1:46
-msgid "B<app-new-window> Create a new Tilix window."
-msgstr "B<app-new-window> 새로운 Tilix 창을 만듭니다."
+msgid "B<app-new-window> Create a new Terminio window."
+msgstr "B<app-new-window> 새로운 Terminio 창을 만듭니다."
 
 #. type: TP
 #: ./data/man/tilix.1:46
@@ -293,16 +293,16 @@ msgstr "B<--new-process>"
 #. type: Plain text
 #: ./data/man/tilix.1:79
 msgid ""
-"Start an additional Tilix instance as a new process. By default and as per "
-"GTK+ version 3 guidelines, Tilix maintains a single process that all windows "
-"belong to. This option forces Tilix to start as a separate process. This is "
+"Start an additional Terminio instance as a new process. By default and as per "
+"GTK+ version 3 guidelines, Terminio maintains a single process that all windows "
+"belong to. This option forces Terminio to start as a separate process. This is "
 "not recommended and only intended for debugging purposes. Its use will "
-"prevent different Tilix windows from communicating with each other."
+"prevent different Terminio windows from communicating with each other."
 msgstr ""
-"추가 Tilix 인스턴스를 새 프로세스로 시작합니다. 기본적으로 그리고 GTK+ 버전 "
-"3 지침에 따라 Tilix는 모든 창이 속하는 단일 프로세스를 유지 관리합니다. 이 "
-"옵션은 Tilix가 별도의 프로세스로 시작되도록 합니다. 이것은 권장되지 않으며 "
-"디버깅 목적으로만 사용됩니다. 이를 사용하면 서로 다른 Tilix 창이 서로 "
+"추가 Terminio 인스턴스를 새 프로세스로 시작합니다. 기본적으로 그리고 GTK+ 버전 "
+"3 지침에 따라 Terminio는 모든 창이 속하는 단일 프로세스를 유지 관리합니다. 이 "
+"옵션은 Terminio가 별도의 프로세스로 시작되도록 합니다. 이것은 권장되지 않으며 "
+"디버깅 목적으로만 사용됩니다. 이를 사용하면 서로 다른 Terminio 창이 서로 "
 "통신하는 것을 방지할 수 있습니다."
 
 #. type: TP
@@ -335,8 +335,8 @@ msgstr "B<--preferences>"
 
 #. type: Plain text
 #: ./data/man/tilix.1:88
-msgid "Show the Tilix preferences dialog directly."
-msgstr "Tilix 기본설정 대화상자를 직접 표시합니다."
+msgid "Show the Terminio preferences dialog directly."
+msgstr "Terminio 기본설정 대화상자를 직접 표시합니다."
 
 #. type: TP
 #: ./data/man/tilix.1:88

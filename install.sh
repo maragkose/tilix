@@ -18,8 +18,8 @@ if [ "$PREFIX" = "/usr" ] && [ "$(id -u)" != "0" ]; then
     exit 1
 fi
 
-if [ ! -f tilix ]; then
-    echo "The tilix executable does not exist, please run 'dub build --build=release' before using this script"
+if [ ! -f terminio ]; then
+    echo "The terminio executable does not exist, please run 'dub build --build=release' before using this script"
     exit 1
 fi
 
@@ -49,27 +49,27 @@ echo "Installing to prefix $PREFIX"
 
 # Copy and compile schema
 echo "Copying and compiling schema..."
-install -Dm 644 data/gsettings/com.gexperts.Tilix.gschema.xml -t "$PREFIX/share/glib-2.0/schemas/"
+install -Dm 644 data/gsettings/io.github.maragkose.Terminio.gschema.xml -t "$PREFIX/share/glib-2.0/schemas/"
 glib-compile-schemas $PREFIX/share/glib-2.0/schemas/
 
-export TILIX_SHARE="$PREFIX/share/tilix"
+export TERMINIO_SHARE="$PREFIX/share/terminio"
 
 # Copy and compile icons
 cd data/resources
 
 echo "Building and copy resources..."
-glib-compile-resources tilix.gresource.xml
-install -Dm 644 tilix.gresource -t "$TILIX_SHARE/resources/"
+glib-compile-resources terminio.gresource.xml
+install -Dm 644 terminio.gresource -t "$TERMINIO_SHARE/resources/"
 
 cd ../..
 
 # Copy shell integration script
 echo "Copying scripts..."
-install -Dm 755 data/scripts/* -t "$TILIX_SHARE/scripts/"
+install -Dm 755 data/scripts/* -t "$TERMINIO_SHARE/scripts/"
 
 # Copy color schemes
 echo "Copying color schemes..."
-install -Dm 644 data/schemes/* -t "$TILIX_SHARE/schemes/"
+install -Dm 644 data/schemes/* -t "$TERMINIO_SHARE/schemes/"
 
 # Create/Update LINGUAS file
 find po -name "*\.po" -printf "%f\\n" | sed "s/\.po//g" | sort > po/LINGUAS
@@ -80,32 +80,33 @@ for f in po/*.po; do
     echo "Processing $f"
     LOCALE=$(basename "$f" .po)
     msgfmt $f -o "$LOCALE.mo"
-    install -Dm 644 "$LOCALE.mo" "$PREFIX/share/locale/$LOCALE/LC_MESSAGES/tilix.mo"
+    install -Dm 644 "$LOCALE.mo" "$PREFIX/share/locale/$LOCALE/LC_MESSAGES/terminio.mo"
     rm -f "$LOCALE.mo"
 done
 
 # Generate desktop file
-msgfmt --desktop --template=data/pkg/desktop/com.gexperts.Tilix.desktop.in -d po -o data/pkg/desktop/com.gexperts.Tilix.desktop
+msgfmt --desktop --template=data/pkg/desktop/io.github.maragkose.Terminio.desktop.in -d po -o data/pkg/desktop/io.github.maragkose.Terminio.desktop
 if [ $? -ne 0 ]; then
     echo "Note that localizating appdata requires a newer version of xgettext, copying instead"
-    cp data/pkg/desktop/com.gexperts.Tilix.desktop.in data/pkg/desktop/com.gexperts.Tilix.desktop
+    cp data/pkg/desktop/io.github.maragkose.Terminio.desktop.in data/pkg/desktop/io.github.maragkose.Terminio.desktop
 fi
 
-desktop-file-validate data/pkg/desktop/com.gexperts.Tilix.desktop
+desktop-file-validate data/pkg/desktop/io.github.maragkose.Terminio.desktop
 
 # Generate appdata file, requires xgettext 0.19.7
-msgfmt --xml --template=data/metainfo/com.gexperts.Tilix.appdata.xml.in -d po -o data/metainfo/com.gexperts.Tilix.appdata.xml
+msgfmt --xml --template=data/metainfo/io.github.maragkose.Terminio.appdata.xml.in -d po -o data/metainfo/io.github.maragkose.Terminio.appdata.xml
 if [ $? -ne 0 ]; then
     echo "Note that localizating appdata requires xgettext 0.19.7 or later, copying instead"
-    cp data/metainfo/com.gexperts.Tilix.appdata.xml.in data/metainfo/com.gexperts.Tilix.appdata.xml
+    cp data/metainfo/io.github.maragkose.Terminio.appdata.xml.in data/metainfo/io.github.maragkose.Terminio.appdata.xml
 fi
 
 # Copying Nautilus extension
 echo "Copying Nautilus extension"
-install -Dm 644 data/nautilus/open-tilix.py -t "$PREFIX/share/nautilus-python/extensions/"
+install -Dm 644 data/nautilus/open-terminio.py -t "$PREFIX/share/nautilus-python/extensions/"
 
 # Copy D-Bus service descriptor
-install -Dm 644 data/dbus/com.gexperts.Tilix.service -t "$PREFIX/share/dbus-1/services/"
+sed "s#@bindir@#$PREFIX/bin#" data/dbus/io.github.maragkose.Terminio.service.in > data/dbus/io.github.maragkose.Terminio.service
+install -Dm 644 data/dbus/io.github.maragkose.Terminio.service -t "$PREFIX/share/dbus-1/services/"
 
 # Copy man page
 . $(dirname $(realpath "$0"))/data/scripts/install-man-pages.sh
@@ -120,10 +121,10 @@ done
 cd ../../..
 
 # Copy executable, desktop and appdata file
-install -Dm 755 tilix -t "$PREFIX/bin/"
+install -Dm 755 terminio -t "$PREFIX/bin/"
 
-install -Dm 644 data/pkg/desktop/com.gexperts.Tilix.desktop -t "$PREFIX/share/applications/"
-install -Dm 644 data/metainfo/com.gexperts.Tilix.appdata.xml -t "$PREFIX/share/metainfo/"
+install -Dm 644 data/pkg/desktop/io.github.maragkose.Terminio.desktop -t "$PREFIX/share/applications/"
+install -Dm 644 data/metainfo/io.github.maragkose.Terminio.appdata.xml -t "$PREFIX/share/metainfo/"
 
 # Update icon cache if Prefix is /usr
 if [ "$PREFIX" = '/usr' ] || [ "$PREFIX" = "/usr/local" ]; then

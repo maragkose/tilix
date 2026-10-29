@@ -28,7 +28,7 @@ import gx.tilix.constants;
 
 int main(string[] args) {
     static if (USE_FILE_LOGGING) {
-        sharedLog = new shared FileLogger("/tmp/tilix.log");
+        sharedLog = new shared FileLogger("/tmp/terminio.log");
     }
 
     bool newProcess = false;
@@ -125,9 +125,9 @@ int main(string[] args) {
             return 0;
         }
     }
-    //append TILIX_ID to args if present
+    //append TERMINIO_ID to args if present
     try {
-        string terminalUUID = environment["TILIX_ID"];
+        string terminalUUID = environment["TERMINIO_ID"];
         trace("Inserting terminal UUID " ~ terminalUUID);
         args ~= ("--" ~ CMD_TERMINAL_UUID ~ "=" ~ terminalUUID);
     }
@@ -177,10 +177,10 @@ private:
         import gtk.Version: Version;
 
         writeln(_("Versions"));
-        writeln("\t" ~ format(_("Tilix version: %s"), APPLICATION_VERSION));
+        writeln("\t" ~ format(_("Terminio version: %s"), APPLICATION_VERSION));
         writeln("\t" ~ format(_("VTE version: %s"), getVTEVersion()));
         writeln("\t" ~ format(_("GTK Version: %d.%d.%d") ~ "\n", Version.getMajorVersion(), Version.getMinorVersion(), Version.getMicroVersion()));
-        writeln(_("Tilix Special Features"));
+        writeln(_("Terminio Special Features"));
         writeln("\t" ~ format(_("Notifications enabled=%b"), checkVTEFeature(TerminalFeature.EVENT_NOTIFICATION)));
         writeln("\t" ~ format(_("Triggers enabled=%b"), checkVTEFeature(TerminalFeature.EVENT_SCREEN_CHANGED)));
         writeln("\t" ~ format(_("Badges enabled=%b"), isVTEBackgroundDrawEnabled));

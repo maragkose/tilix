@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: tilix\n"
+"Project-Id-Version: terminio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 21:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -713,7 +713,7 @@ msgid "Help"
 msgstr ""
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
+msgid "Terminio Preferences"
 msgstr ""
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
@@ -1274,7 +1274,7 @@ msgstr ""
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
-msgid "Tilix"
+msgid "Terminio"
 msgstr ""
 
 #: source/gx/tilix/application.d:679
@@ -1310,7 +1310,7 @@ msgid "SESSION_NAME"
 msgstr ""
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
+msgid "Send an action to current Terminio instance"
 msgstr ""
 
 #: source/gx/tilix/application.d:684
@@ -1370,16 +1370,16 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
+msgid "Show the Terminio and dependent component versions"
 msgstr ""
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
+msgid "Show the Terminio preferences dialog directly"
 msgstr ""
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
 
@@ -1473,7 +1473,7 @@ msgid "Keyboard Shortcuts"
 msgstr ""
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
+msgid "About Terminio"
 msgstr ""
 
 #: source/gx/tilix/appwindow.d:711
@@ -1545,7 +1545,7 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
 msgstr ""
 
 #: source/gx/tilix/constants.d:79
@@ -1977,7 +1977,7 @@ msgid "Restore"
 msgstr ""
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
+msgid "Terminio Custom Notification"
 msgstr ""
 
 #: source/gx/tilix/terminal/terminal.d:1810
@@ -2123,7 +2123,7 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
+msgid "You can only use the action parameter within Terminio"
 msgstr ""
 
 #: source/gx/tilix/cmdparams.d:215
@@ -2155,7 +2155,7 @@ msgstr ""
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
+msgid "Terminio version: %s"
 msgstr ""
 
 #: source/app.d:179
@@ -2169,7 +2169,7 @@ msgid "GTK Version: %d.%d.%d"
 msgstr ""
 
 #: source/app.d:181
-msgid "Tilix Special Features"
+msgid "Terminio Special Features"
 msgstr ""
 
 #: source/app.d:182
@@ -2185,35 +2185,35 @@ msgid "Badges enabled=%b"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
+msgid "Open Remote Terminio"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
+msgid "Open Remote Terminio In {}"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
+msgid "Open In Terminio"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
+msgid "Open Terminio In {}"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
+msgid "Open Remote Terminio Here"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
+msgid "Open Remote Terminio In This Directory"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
+msgid "Open Terminio Here"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
+msgid "Open Terminio In This Directory"
 msgstr ""
 
 #: data/resources/ui/shortcuts.ui:10 data/resources/ui/shortcuts.ui:15
@@ -2713,7 +2713,7 @@ msgstr ""
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
+msgid "Open in Terminio"
 msgstr ""
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
@@ -2731,7 +2731,7 @@ msgid "shell;prompt;command;commandline;cmd;"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
+msgid "Terminio is a tiling terminal emulator."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
@@ -2789,11 +2789,11 @@ msgid ""
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
+msgid "Terminio is still looking for a new maintainer!"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
@@ -2865,13 +2865,13 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87

@@ -8,7 +8,7 @@ msgstr ""
 "PO-Revision-Date: 2024-03-19 13:32+0000\n"
 "Last-Translator: 复予 <clonewith@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"tilix/translations/zh_Hans/>\n"
+"terminio/translations/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,8 +19,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -28,8 +28,8 @@ msgid "A tiling terminal for GNOME"
 msgstr "GNOME 的平铺终端模拟器"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
-msgstr "Tilix 是一个平铺终端模拟器。"
+msgid "Terminio is a tiling terminal emulator."
+msgstr "Terminio 是一个平铺终端模拟器。"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
@@ -88,12 +88,12 @@ msgstr ""
 "Terminix 使用了客户端窗口装饰（CSD），但此功能可随时关闭。"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "Tilix 已在 GNOME 和 Unity 上测试。"
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "Terminio 已在 GNOME 和 Unity 上测试。"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
-msgstr "Tilix 依旧在寻找新的维护者!"
+msgid "Terminio is still looking for a new maintainer!"
+msgstr "Terminio 依旧在寻找新的维护者!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
@@ -166,15 +166,15 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
-"Tilix 正在寻找维护者！ 目前，只进行了非常少的维护，不会实施新功能，并且可能会"
+"Terminio 正在寻找维护者！ 目前，只进行了非常少的维护，不会实施新功能，并且可能会"
 "非常缓慢地审核拉取请求。"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr "如果你有兴趣帮忙, 吱个声!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
@@ -283,39 +283,39 @@ msgstr "若干新特性及漏洞修复."
 # Nautilus extension
 # ******************
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "打开远程 Tilix"
+msgid "Open Remote Terminio"
+msgstr "打开远程 Terminio"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "在 {} 打开远程 Tilix"
+msgid "Open Remote Terminio In {}"
+msgstr "在 {} 打开远程 Terminio"
 
 # ******************
 # Nautilus extension
 # ******************
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "使用 Tilix 打开"
+msgid "Open In Terminio"
+msgstr "使用 Terminio 打开"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "在 {} 中打开 Tilix"
+msgid "Open Terminio In {}"
+msgstr "在 {} 中打开 Terminio"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "在此打开 Tilix"
+msgid "Open Remote Terminio Here"
+msgstr "在此打开 Terminio"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "在此目录打开远程 Tilix"
+msgid "Open Remote Terminio In This Directory"
+msgstr "在此目录打开远程 Terminio"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "在此打开 Tilix"
+msgid "Open Terminio Here"
+msgstr "在此打开 Terminio"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "在此目录打开 Tilix"
+msgid "Open Terminio In This Directory"
+msgstr "在此目录打开 Terminio"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -842,8 +842,8 @@ msgstr "打开"
 # ******************
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "使用 Tilix 打开"
+msgid "Open in Terminio"
+msgstr "使用 Terminio 打开"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -874,8 +874,8 @@ msgstr "版本"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Tilix版本: %s"
+msgid "Terminio version: %s"
+msgstr "Terminio版本: %s"
 
 #: source/app.d:179
 #, c-format
@@ -888,8 +888,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "GTK版本: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Tilix 特殊功能"
+msgid "Terminio Special Features"
+msgstr "Terminio 特殊功能"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -957,8 +957,8 @@ msgid "ACTION_NAME"
 msgstr "ACTION_NAME"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "向当前 Tilix 实例发送动作"
+msgid "Send an action to current Terminio instance"
+msgstr "向当前 Terminio 实例发送动作"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1015,12 +1015,12 @@ msgid ""
 msgstr "用quake模式打开一个窗口或切换当前quake窗口可见性"
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
-msgstr "显示Tilix及其依赖组件版本"
+msgid "Show the Terminio and dependent component versions"
+msgstr "显示Terminio及其依赖组件版本"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
-msgstr "直接显示 Tilix 首选项对话框"
+msgid "Show the Terminio preferences dialog directly"
+msgstr "直接显示 Terminio 首选项对话框"
 
 #: source/gx/tilix/application.d:697
 msgid "GROUP_NAME"
@@ -1028,9 +1028,9 @@ msgstr "GROUP_NAME"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
-msgstr "将 Tilix 实例分组为不同进程（实验性，不推荐）"
+msgstr "将 Terminio 实例分组为不同进程（实验性，不推荐）"
 
 #: source/gx/tilix/application.d:700
 msgid "Hidden argument to pass terminal UUID"
@@ -1118,8 +1118,8 @@ msgid "Keyboard Shortcuts"
 msgstr "快捷键"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "关于Tilix"
+msgid "About Terminio"
+msgstr "关于Terminio"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1356,8 +1356,8 @@ msgstr ""
 "个操作"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
-msgstr "您只能在 Tilix 内使用操作参数"
+msgid "You can only use the action parameter within Terminio"
+msgstr "您只能在 Terminio 内使用操作参数"
 
 #: source/gx/tilix/cmdparams.d:215
 msgid ""
@@ -1387,8 +1387,8 @@ msgstr ""
 "未包含一份 MPL 副本，该副本可通过 http://mozilla.org/MPL/2.0 获取。"
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
-msgstr "GTK VTE 部件团队，Tilix 的开发离不开他们的劳动"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
+msgstr "GTK VTE 部件团队，Terminio 的开发离不开他们的劳动"
 
 #: source/gx/tilix/constants.d:79
 msgid "GtkD for providing such an excellent GTK wrapper"
@@ -1717,8 +1717,8 @@ msgstr ""
 "的操作。"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "Tilix 首选项"
+msgid "Terminio Preferences"
+msgstr "Terminio 首选项"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2911,8 +2911,8 @@ msgid "Restore"
 msgstr "恢复"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "Tilix自定义通知"
+msgid "Terminio Custom Notification"
+msgstr "Terminio自定义通知"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

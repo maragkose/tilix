@@ -21,8 +21,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -30,7 +30,7 @@ msgid "A tiling terminal for GNOME"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
+msgid "Terminio is a tiling terminal emulator."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
@@ -88,11 +88,11 @@ msgid ""
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
+msgid "Terminio is still looking for a new maintainer!"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
@@ -164,13 +164,13 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
+msgid "If you are interested in helping Terminio, please chime in!"
 msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
@@ -277,36 +277,36 @@ msgid "Some new features and bug fixes."
 msgstr ""
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
+msgid "Open Remote Terminio"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
+msgid "Open Remote Terminio In {}"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
+msgid "Open In Terminio"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
+msgid "Open Terminio In {}"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
+msgid "Open Remote Terminio Here"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
+msgid "Open Remote Terminio In This Directory"
 msgstr ""
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "Tilix をここで開く"
+msgid "Open Terminio Here"
+msgstr "Terminio をここで開く"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "Tilix をこのディレクトリで開く"
+msgid "Open Terminio In This Directory"
+msgstr "Terminio をこのディレクトリで開く"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -828,8 +828,8 @@ msgstr "開く"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "Tilix で開く"
+msgid "Open in Terminio"
+msgstr "Terminio で開く"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -862,8 +862,8 @@ msgstr "バージョン"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Tilix バージョン: %s"
+msgid "Terminio version: %s"
+msgstr "Terminio バージョン: %s"
 
 #: source/app.d:179
 #, c-format
@@ -876,8 +876,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "GTK バージョン: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Tilix の特徴"
+msgid "Terminio Special Features"
+msgstr "Terminio の特徴"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -945,7 +945,7 @@ msgid "ACTION_NAME"
 msgstr "ACTION_NAME"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
+msgid "Send an action to current Terminio instance"
 msgstr ""
 
 #: source/gx/tilix/application.d:686
@@ -1001,11 +1001,11 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
+msgid "Show the Terminio and dependent component versions"
 msgstr ""
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
+msgid "Show the Terminio preferences dialog directly"
 msgstr ""
 
 #: source/gx/tilix/application.d:697
@@ -1015,7 +1015,7 @@ msgstr "PROFILE_NAME"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
 
@@ -1106,8 +1106,8 @@ msgid "Keyboard Shortcuts"
 msgstr "キーボードショートカット"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "Tilix について"
+msgid "About Terminio"
+msgstr "Terminio について"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1344,7 +1344,7 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
+msgid "You can only use the action parameter within Terminio"
 msgstr ""
 
 #: source/gx/tilix/cmdparams.d:215
@@ -1373,9 +1373,9 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
 msgstr ""
-"GTK VTE ウィジェットチーム: 彼らの貢献があってこそ Tilix は実現しました"
+"GTK VTE ウィジェットチーム: 彼らの貢献があってこそ Terminio は実現しました"
 
 #: source/gx/tilix/constants.d:79
 msgid "GtkD for providing such an excellent GTK wrapper"
@@ -1704,8 +1704,8 @@ msgid ""
 msgstr ""
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "Tilix の設定"
+msgid "Terminio Preferences"
+msgstr "Terminio の設定"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2899,8 +2899,8 @@ msgid "Restore"
 msgstr "元に戻す"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "Tilix カスタム通知"
+msgid "Terminio Custom Notification"
+msgstr "Terminio カスタム通知"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

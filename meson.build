@@ -1,5 +1,5 @@
 project(
-    'Tilix', 'd',
+    'Terminio', 'd',
     version: '1.9.7',
     license: 'MPL-2.0',
     meson_version: '>= 0.56'
@@ -14,9 +14,7 @@ else
   d_link_args = []
 endif
 
-project_id = 'com.gexperts.Tilix'
-# Application ID of the fork. GSettings schemas keep project_id so Tilix profiles are shared.
-app_id = 'io.github.maragkose.Terminio'
+project_id = 'io.github.maragkose.Terminio'
 project_name = meson.project_name()
 
 gnome = import('gnome')
@@ -121,7 +119,7 @@ executable('terminio',
     install : true
 )
 
-tilix_test_exe = executable('tilix_test',
+tilix_test_exe = executable('terminio_test',
     [tilix_sources],
     include_directories : [sources_dir],
     dependencies : [gtkd_dep,
@@ -131,6 +129,6 @@ tilix_test_exe = executable('tilix_test',
     link_args: d_link_args,
     d_unittest: true
 )
-test('tilix_test', tilix_test_exe)
+test('terminio_test', tilix_test_exe)
 
 meson.add_install_script('meson_post_install.py')

@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tilix\n"
+"Project-Id-Version: terminio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 21:52+0100\n"
 "PO-Revision-Date: 2024-01-17 12:06+0000\n"
@@ -21,8 +21,8 @@ msgstr ""
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
 #: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
-msgid "Tilix"
-msgstr "Tilix"
+msgid "Terminio"
+msgstr "Terminio"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
@@ -30,8 +30,8 @@ msgid "A tiling terminal for GNOME"
 msgstr "Un mosaic de Terminals per a Gnome"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
-msgid "Tilix is a tiling terminal emulator."
-msgstr "El Tilix és un emulador de terminals en mosaic."
+msgid "Terminio is a tiling terminal emulator."
+msgstr "El Terminio és un emulador de terminals en mosaic."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
@@ -103,12 +103,12 @@ msgstr ""
 "decoracions laterals del client, tot i que es pot desactivar si voleu."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
-msgid "Tilix has been tested with GNOME and with Unity."
-msgstr "El Tilix s'ha provat amb el GNOME i amb el Unity."
+msgid "Terminio has been tested with GNOME and with Unity."
+msgstr "El Terminio s'ha provat amb el GNOME i amb el Unity."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
-msgid "Tilix is still looking for a new maintainer!"
-msgstr "Tilix encara està buscant un mantenidor nou!"
+msgid "Terminio is still looking for a new maintainer!"
+msgstr "Terminio encara està buscant un mantenidor nou!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
@@ -184,17 +184,17 @@ msgstr ""
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
-"Tilix is looking for maintainers! At the moment, only very minimal "
+"Terminio is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
-"Tilix està buscant mantenedors! De moment, només es fa un manteniment molt "
+"Terminio està buscant mantenedors! De moment, només es fa un manteniment molt "
 "mínim, no s'implementaran noves funcions i les sol·licituds d'extracció es "
 "poden revisar molt lentament."
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
-msgid "If you are interested in helping Tilix, please chime in!"
-msgstr "Si estàs interessat a ajudar a Tilix, si us plau, participa!"
+msgid "If you are interested in helping Terminio, please chime in!"
+msgstr "Si estàs interessat a ajudar a Terminio, si us plau, participa!"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
 msgid "Actually install Yaru color scheme"
@@ -309,36 +309,36 @@ msgid "Some new features and bug fixes."
 msgstr "Algunes funcions noves i correccions d'errors."
 
 #: data/nautilus/open-tilix.py:119
-msgid "Open Remote Tilix"
-msgstr "Obre el Tilix de forma remota"
+msgid "Open Remote Terminio"
+msgstr "Obre el Terminio de forma remota"
 
 #: data/nautilus/open-tilix.py:120
-msgid "Open Remote Tilix In {}"
-msgstr "Obrir el Tilix remot a {}"
+msgid "Open Remote Terminio In {}"
+msgstr "Obrir el Terminio remot a {}"
 
 #: data/nautilus/open-tilix.py:126
-msgid "Open In Tilix"
-msgstr "Obre en Tilix"
+msgid "Open In Terminio"
+msgstr "Obre en Terminio"
 
 #: data/nautilus/open-tilix.py:127
-msgid "Open Tilix In {}"
-msgstr "Obre el Tilix a {}"
+msgid "Open Terminio In {}"
+msgstr "Obre el Terminio a {}"
 
 #: data/nautilus/open-tilix.py:138
-msgid "Open Remote Tilix Here"
-msgstr "Obre el Tilix de forma remota aquí"
+msgid "Open Remote Terminio Here"
+msgstr "Obre el Terminio de forma remota aquí"
 
 #: data/nautilus/open-tilix.py:139
-msgid "Open Remote Tilix In This Directory"
-msgstr "Obre el Tilix de forma remota en aquest directori"
+msgid "Open Remote Terminio In This Directory"
+msgstr "Obre el Terminio de forma remota en aquest directori"
 
 #: data/nautilus/open-tilix.py:144
-msgid "Open Tilix Here"
-msgstr "Obre el Tilix aquí"
+msgid "Open Terminio Here"
+msgstr "Obre el Terminio aquí"
 
 #: data/nautilus/open-tilix.py:145
-msgid "Open Tilix In This Directory"
-msgstr "Obre el Tilix en aquest directori"
+msgid "Open Terminio In This Directory"
+msgstr "Obre el Terminio en aquest directori"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
@@ -857,8 +857,8 @@ msgstr "Obre"
 
 #: data/resources/ui/shortcuts.ui:631
 msgctxt "shortcut window"
-msgid "Open in Tilix"
-msgstr "Obre en Tilix"
+msgid "Open in Terminio"
+msgstr "Obre en Terminio"
 
 #: data/resources/ui/shortcuts.ui:642 data/resources/ui/shortcuts.ui:647
 msgctxt "shortcut window"
@@ -889,8 +889,8 @@ msgstr "Versions"
 
 #: source/app.d:178
 #, c-format
-msgid "Tilix version: %s"
-msgstr "Versió del Tilix: %s"
+msgid "Terminio version: %s"
+msgstr "Versió del Terminio: %s"
 
 #: source/app.d:179
 #, c-format
@@ -903,8 +903,8 @@ msgid "GTK Version: %d.%d.%d"
 msgstr "Versió del GTK: %d.%d.%d"
 
 #: source/app.d:181
-msgid "Tilix Special Features"
-msgstr "Característiques especials del Tilix"
+msgid "Terminio Special Features"
+msgstr "Característiques especials del Terminio"
 
 #: source/app.d:182
 msgid "Notifications enabled=%b"
@@ -975,8 +975,8 @@ msgid "ACTION_NAME"
 msgstr "NOM_DE_ACCIÓ"
 
 #: source/gx/tilix/application.d:684
-msgid "Send an action to current Tilix instance"
-msgstr "Envia una acció a la instància Tilix actual"
+msgid "Send an action to current Terminio instance"
+msgstr "Envia una acció a la instància Terminio actual"
 
 #: source/gx/tilix/application.d:686
 msgid "COMMAND"
@@ -1037,12 +1037,12 @@ msgstr ""
 "el mode Quake existent"
 
 #: source/gx/tilix/application.d:695
-msgid "Show the Tilix and dependent component versions"
-msgstr "Mostra les versions de Tilix i dels components dependents"
+msgid "Show the Terminio and dependent component versions"
+msgstr "Mostra les versions de Terminio i dels components dependents"
 
 #: source/gx/tilix/application.d:696
-msgid "Show the Tilix preferences dialog directly"
-msgstr "Mostra el diàleg de preferències del Tilix directament"
+msgid "Show the Terminio preferences dialog directly"
+msgstr "Mostra el diàleg de preferències del Terminio directament"
 
 #: source/gx/tilix/application.d:697
 msgid "GROUP_NAME"
@@ -1050,10 +1050,10 @@ msgstr "NOM_GRUP"
 
 #: source/gx/tilix/application.d:697
 msgid ""
-"Group tilix instances into different processes (Experimental, not "
+"Group terminio instances into different processes (Experimental, not "
 "recommended)"
 msgstr ""
-"Agrupa les instancies del Tilix en processos diferents (experimental, no "
+"Agrupa les instancies del Terminio en processos diferents (experimental, no "
 "recomanat)"
 
 #: source/gx/tilix/application.d:700
@@ -1143,8 +1143,8 @@ msgid "Keyboard Shortcuts"
 msgstr "Dreceres del teclat"
 
 #: source/gx/tilix/appwindow.d:704
-msgid "About Tilix"
-msgstr "Quant al Tilix"
+msgid "About Terminio"
+msgstr "Quant al Terminio"
 
 #: source/gx/tilix/appwindow.d:711
 msgid "GC"
@@ -1384,8 +1384,8 @@ msgstr ""
 "d'ordres d'execució, trieu-ne una o una altra"
 
 #: source/gx/tilix/cmdparams.d:193
-msgid "You can only use the action parameter within Tilix"
-msgstr "Només podeu usar el paràmetre d'acció dins del Tilix"
+msgid "You can only use the action parameter within Terminio"
+msgstr "Només podeu usar el paràmetre d'acció dins del Terminio"
 
 #: source/gx/tilix/cmdparams.d:215
 msgid ""
@@ -1418,8 +1418,8 @@ msgstr ""
 "amb aquest fitxer, en podeu obtenir una a http://mozilla.org/MPL/2.0/."
 
 #: source/gx/tilix/constants.d:78
-msgid "GTK VTE widget team, Tilix would not be possible without their work"
-msgstr "Equip de ginys GTK VTE, Tilix no seria possible sense el seu treball"
+msgid "GTK VTE widget team, Terminio would not be possible without their work"
+msgstr "Equip de ginys GTK VTE, Terminio no seria possible sense el seu treball"
 
 #: source/gx/tilix/constants.d:79
 msgid "GtkD for providing such an excellent GTK wrapper"
@@ -1748,8 +1748,8 @@ msgstr ""
 "l'acció configurada."
 
 #: source/gx/tilix/prefeditor/prefdialog.d:123
-msgid "Tilix Preferences"
-msgstr "Preferències del Tilix"
+msgid "Terminio Preferences"
+msgstr "Preferències del Terminio"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:140
 #: source/gx/tilix/prefeditor/prefdialog.d:141
@@ -2956,8 +2956,8 @@ msgid "Restore"
 msgstr "Restaura"
 
 #: source/gx/tilix/terminal/terminal.d:1709
-msgid "Tilix Custom Notification"
-msgstr "Notificació personalitzada del Tilix"
+msgid "Terminio Custom Notification"
+msgstr "Notificació personalitzada del Terminio"
 
 #: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"

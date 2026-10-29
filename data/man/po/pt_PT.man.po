@@ -10,7 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2020-08-30 19:37+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
-"tilix/manpage/pt_PT/>\n"
+"terminio/manpage/pt_PT/>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,8 +21,8 @@ msgstr ""
 #. type: TH
 #: data/man/tilix.1:3
 #, no-wrap
-msgid "TILIX"
-msgstr "TILIX"
+msgid "TERMINIO"
+msgstr "TERMINIO"
 
 #. type: TH
 #: data/man/tilix.1:3
@@ -39,8 +39,8 @@ msgstr "1.4.0"
 #. type: TH
 #: data/man/tilix.1:3
 #, no-wrap
-msgid "Tilix Commands"
-msgstr "Comandos do Tilix"
+msgid "Terminio Commands"
+msgstr "Comandos do Terminio"
 
 #. type: SH
 #: data/man/tilix.1:4
@@ -50,8 +50,8 @@ msgstr "NOME"
 
 #. type: Plain text
 #: data/man/tilix.1:6
-msgid "B<tilix> - Tiling GTK3 terminal emulator for GNOME"
-msgstr "B<tilix> - Emulador de terminal GTK3 em mosaico para o GNOME"
+msgid "B<terminio> - Tiling GTK3 terminal emulator for GNOME"
+msgstr "B<terminio> - Emulador de terminal GTK3 em mosaico para o GNOME"
 
 #. type: SH
 #: data/man/tilix.1:6
@@ -61,8 +61,8 @@ msgstr "SINOPSE"
 
 #. type: Plain text
 #: data/man/tilix.1:9
-msgid "B<tilix> [I<options>]"
-msgstr "B<tilix> [I<opções>]"
+msgid "B<terminio> [I<options>]"
+msgstr "B<terminio> [I<opções>]"
 
 #. type: SH
 #: data/man/tilix.1:9
@@ -73,10 +73,10 @@ msgstr "DESCRIÇÃO"
 #. type: Plain text
 #: data/man/tilix.1:11
 msgid ""
-"B<tilix> is an advanced GTK3 tiling terminal emulator designed to adhere to "
+"B<terminio> is an advanced GTK3 tiling terminal emulator designed to adhere to "
 "GNOME Human Interface Guidelines."
 msgstr ""
-"B<tilix> é um avançado emulador de terminal GTK3 em mosaico projetado para "
+"B<terminio> é um avançado emulador de terminal GTK3 em mosaico projetado para "
 "aderir a diretrizes de interface de utilizador do GNOME."
 
 #. type: SH
@@ -87,8 +87,8 @@ msgstr "OPÇÕES"
 
 #. type: Plain text
 #: data/man/tilix.1:13
-msgid "The B<tilix> application accepts the following command line parameters:"
-msgstr "O B<tilix> aceita os seguintes parâmetros de linha de comando:"
+msgid "The B<terminio> application accepts the following command line parameters:"
+msgstr "O B<terminio> aceita os seguintes parâmetros de linha de comando:"
 
 #. type: TP
 #: data/man/tilix.1:13
@@ -110,9 +110,9 @@ msgstr "B<-v --version>"
 #. type: Plain text
 #: data/man/tilix.1:19
 msgid ""
-"Show the version of Tilix as well as the versions of dependent components."
+"Show the version of Terminio as well as the versions of dependent components."
 msgstr ""
-"Exibe a versão do Tilix bem como as versões dos componentes dependentes."
+"Exibe a versão do Terminio bem como as versões dos componentes dependentes."
 
 #. type: TP
 #: data/man/tilix.1:19
@@ -176,8 +176,8 @@ msgstr "B<-a --action=NOME_DA_AÇÃO>"
 
 #. type: Plain text
 #: data/man/tilix.1:34
-msgid "Perform one of the following actions in the current Tilix instance:"
-msgstr "Executa uma das ações abaixo na instância atual do Tilix:"
+msgid "Perform one of the following actions in the current Terminio instance:"
+msgstr "Executa uma das ações abaixo na instância atual do Terminio:"
 
 #. type: Plain text
 #: data/man/tilix.1:37
@@ -192,13 +192,13 @@ msgstr "B<session-add-down> Adiciona um novo terminal abaixo do atual."
 #. type: Plain text
 #: data/man/tilix.1:43
 msgid ""
-"B<app-new-session> Create a new Tilix session within the current window."
-msgstr "B<app-new-session> Cria uma nova sessão Tilix dentro da janela atual."
+"B<app-new-session> Create a new Terminio session within the current window."
+msgstr "B<app-new-session> Cria uma nova sessão Terminio dentro da janela atual."
 
 #. type: Plain text
 #: data/man/tilix.1:46
-msgid "B<app-new-window> Create a new Tilix window."
-msgstr "B<app-new-window> Cria uma nova janela Tilix."
+msgid "B<app-new-window> Create a new Terminio window."
+msgstr "B<app-new-window> Cria uma nova janela Terminio."
 
 #. type: TP
 #: data/man/tilix.1:46
@@ -305,18 +305,18 @@ msgstr "B<--new-process>"
 #. type: Plain text
 #: data/man/tilix.1:79
 msgid ""
-"Start an additional Tilix instance as a new process. By default and as per "
-"GTK+ version 3 guidelines, Tilix maintains a single process that all windows "
-"belong to. This option forces Tilix to start as a separate process. This is "
+"Start an additional Terminio instance as a new process. By default and as per "
+"GTK+ version 3 guidelines, Terminio maintains a single process that all windows "
+"belong to. This option forces Terminio to start as a separate process. This is "
 "not recommended and only intended for debugging purposes. Its use will "
-"prevent different Tilix windows from communicating with each other."
+"prevent different Terminio windows from communicating with each other."
 msgstr ""
-"Inicia uma instância adicional do Tilix como um novo processo. Por "
-"predefinição, e conforme as diretrizes do GTK+ 3, o Tilix mantém um único "
-"processo ao qual todas as janelas pertencem. Esta opção força o Tilix a "
+"Inicia uma instância adicional do Terminio como um novo processo. Por "
+"predefinição, e conforme as diretrizes do GTK+ 3, o Terminio mantém um único "
+"processo ao qual todas as janelas pertencem. Esta opção força o Terminio a "
 "iniciar como um processo separado. Isso não é recomendado e destina-se "
 "apenas a fins de depuração. O uso desta opção irá impedir diferentes janelas "
-"do Tilix de se comunicar umas com as outras."
+"do Terminio de se comunicar umas com as outras."
 
 #. type: TP
 #: data/man/tilix.1:79
@@ -354,8 +354,8 @@ msgstr "B<--preferences>"
 
 #. type: Plain text
 #: data/man/tilix.1:88
-msgid "Show the Tilix preferences dialog directly."
-msgstr "Mostra diretamente a janela de preferências do Tilix."
+msgid "Show the Terminio preferences dialog directly."
+msgstr "Mostra diretamente a janela de preferências do Terminio."
 
 #. type: TP
 #: data/man/tilix.1:88

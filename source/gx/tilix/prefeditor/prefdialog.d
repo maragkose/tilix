@@ -120,7 +120,7 @@ private:
 
     void createUI() {
 
-        setTitle(_("Tilix Preferences"));
+        setTitle(_("Terminio Preferences"));
 
         createSplitHeaders();
 

@@ -1,1 +1,1 @@
-i18n.gettext('tilix', preset: 'glib')
+i18n.gettext('terminio', preset: 'glib')
