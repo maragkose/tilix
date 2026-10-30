@@ -386,6 +386,11 @@
       <summary>Whether the sidebar should be on the right</summary>
       <description>If true, the sidebar will be attached to the right side of the window rather than the left.</description>
     </key>
+    <key name="sidebar-button-show-title" type="b">
+      <default>false</default>
+      <summary>Whether the sidebar button shows the session title</summary>
+      <description>If true, the button that opens the session sidebar shows the current session title after the session number.</description>
+    </key>
     <!-- Quake Options -->
     <key name="quake-height-percent" type="i">
       <range min="10" max="100" />

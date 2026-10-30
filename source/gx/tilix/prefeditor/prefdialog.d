@@ -1303,6 +1303,10 @@ class AppearancePreferences: Box {
             bh.bind(SETTINGS_SIDEBAR_RIGHT, cbRightSidebar, "active", GSettingsBindFlags.DEFAULT);
             add(cbRightSidebar);
 
+            CheckButton cbSidebarButtonTitle = new CheckButton(_("Show the session title on the sidebar button"));
+            bh.bind(SETTINGS_SIDEBAR_BUTTON_SHOW_TITLE_KEY, cbSidebarButtonTitle, "active", GSettingsBindFlags.DEFAULT);
+            add(cbSidebarButtonTitle);
+
             CheckButton cbTitleShowWhenSingle = new CheckButton(_("Show the terminal title even if it's the only terminal"));
             bh.bind(SETTINGS_TERMINAL_TITLE_SHOW_WHEN_SINGLE_KEY, cbTitleShowWhenSingle, "active", GSettingsBindFlags.DEFAULT);
             add(cbTitleShowWhenSingle);

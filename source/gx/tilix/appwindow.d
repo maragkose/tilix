@@ -332,6 +332,8 @@ private:
             tbSideBar.getStyleContext().addClass("session-sidebar-button");
             Box b = new Box(Orientation.HORIZONTAL, 6);
             lblSideBar = new Label("1 / 1");
+            lblSideBar.setEllipsize(PangoEllipsizeMode.END);
+            lblSideBar.setMaxWidthChars(40);
             Image img = new Image("pan-down-symbolic", IconSize.MENU);
             b.add(lblSideBar);
             b.add(img);
@@ -1060,7 +1062,11 @@ private:
                 }
             }
         } else {
-            lblSideBar.setLabel(format("%d / %d", nb.getCurrentPage() + 1, nb.getNPages()));
+            string label = format("%d / %d", nb.getCurrentPage() + 1, nb.getNPages());
+            if (session !is null && gsSettings.getBoolean(SETTINGS_SIDEBAR_BUTTON_SHOW_TITLE_KEY)) {
+                label ~= "  " ~ session.displayTitle;
+            }
+            lblSideBar.setLabel(label);
         }
     }
 
@@ -1710,6 +1716,8 @@ public:
                 loadRecentSessionFileList();
             } else if (key == SETTINGS_APP_TITLE_KEY) {
                 updateTitle();
+            } else if (key == SETTINGS_SIDEBAR_BUTTON_SHOW_TITLE_KEY) {
+                updateUIState();
             }
         });
 
