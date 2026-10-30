@@ -578,7 +578,7 @@ private:
         img.setFromPixbuf(pb);
         // Fix #1637
         _sessionUUID = session.uuid;
-        lblName.setText(session.displayName);
+        lblName.setText(session.displayTitle);
         if (session.uuid in notifications) {
             SessionNotification sn = notifications[session.uuid];
             lblNCount.setText(format("%d", sn.messages.length));

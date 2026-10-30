@@ -193,9 +193,6 @@ private:
 
     string[] recentSessionFiles;
 
-    // The user overridden application title, specific to the window only
-    string _overrideTitle;
-
     // Tells the window when closing not to prompt the user, just close
     bool _noPrompt = false;
 
@@ -410,8 +407,9 @@ private:
     }
 
     void onCustomTitleChange(string title) {
-            _overrideTitle = title;
-            updateTitle;
+        Session session = getCurrentSession();
+        if (session !is null) session.customTitle = title;
+        updateTitle;
     }
 
     void onCustomTitleCancelEdit() {
@@ -421,8 +419,9 @@ private:
     }
 
     void onCustomTitleEdit(CumulativeResult!string result) {
-        if (_overrideTitle.length > 0) {
-            result.addResult(_overrideTitle);
+        Session session = getCurrentSession();
+        if (session !is null && session.customTitle.length > 0) {
+            result.addResult(session.customTitle);
         } else {
             result.addResult(gsSettings.getString(SETTINGS_APP_TITLE_KEY));
         }
@@ -780,7 +779,7 @@ private:
         if (!useTabs) {
             index = nb.appendPage(session, session.name);
         } else {
-            SessionTabLabel label = new SessionTabLabel(nb.getTabPos, session.displayName, session);
+            SessionTabLabel label = new SessionTabLabel(nb.getTabPos, session.displayTitle, session);
             index = nb.appendPage(session, label);
         }
         nb.showAll();
@@ -1029,7 +1028,7 @@ private:
         if (useTabs) {
             if (((stateChange == SessionStateChange.TERMINAL_TITLE) || (stateChange == SessionStateChange.SESSION_TITLE)) || (stateChange == SessionStateChange.TERMINAL_FOCUSED)) {
                 SessionTabLabel label = cast(SessionTabLabel) nb.getTabLabel(session);
-                if (label !is null) label.text=session.displayName;
+                if (label !is null) label.text=session.displayTitle;
             }
             if (getCurrentSession() != session && stateChange == SessionStateChange.TERMINAL_OUTPUT) {
                 SessionTabLabel label = cast(SessionTabLabel) nb.getTabLabel(session);
@@ -1078,9 +1077,9 @@ private:
     }
 
     string getDisplayTitle() {
-        string title = _overrideTitle.length == 0?gsSettings.getString(SETTINGS_APP_TITLE_KEY):_overrideTitle;
-        title = title.replace(VARIABLE_APP_NAME, _(APPLICATION_NAME));
         Session session = getCurrentSession();
+        string title = (session is null || session.customTitle.length == 0) ? gsSettings.getString(SETTINGS_APP_TITLE_KEY) : session.customTitle;
+        title = title.replace(VARIABLE_APP_NAME, _(APPLICATION_NAME));
         if (session) {
             title = session.getDisplayText(title);
             title = title.replace(VARIABLE_SESSION_NUMBER, to!string(nb.getCurrentPage()+1));

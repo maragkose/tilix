@@ -118,6 +118,7 @@ private:
 
     Terminal[] terminals;
     string _name;
+    string _customTitle;
     bool _synchronizeInput;
 
     string _sessionUUID;
@@ -796,6 +797,7 @@ private:
     enum NODE_SYNCHRONIZED_INPUT = "synchronizedInput";
     enum NODE_RATIO = "ratio";
     enum NODE_UUID = "uuid";
+    enum NODE_CUSTOM_TITLE = "customTitle";
 
     /**
      * Widget Types which are serialized
@@ -961,6 +963,9 @@ private:
     void parseSession(JSONValue value, SessionSizeInfo sizeInfo) {
         maximizedUUID.length = 0;
         _name = value[NODE_NAME].str();
+        if (NODE_CUSTOM_TITLE in value) {
+            _customTitle = value[NODE_CUSTOM_TITLE].str();
+        }
         if (NODE_SYNCHRONIZED_INPUT in value) {
             _synchronizeInput = value[NODE_SYNCHRONIZED_INPUT].type == JSONType.true_;
         }
@@ -1177,6 +1182,9 @@ public:
         setlocale(LC_ALL, "C");
         JSONValue root = ["version" : "1.0"];
         root.object[NODE_NAME] = _name;
+        if (_customTitle.length > 0) {
+            root.object[NODE_CUSTOM_TITLE] = _customTitle;
+        }
         root.object[NODE_SYNCHRONIZED_INPUT] = _synchronizeInput;
         root.object[NODE_WIDTH] = JSONValue(getAllocatedWidth());
         root.object[NODE_HEIGHT] = JSONValue(getAllocatedHeight());
@@ -1225,6 +1233,26 @@ public:
         // If it is using Default from preferences localize it
         if (result == "Default") return _("Default");
         else return result;
+    }
+
+    /**
+     * The title typed in the window header bar while this session was active, empty if none
+     */
+    @property string customTitle() {
+        return _customTitle;
+    }
+
+    @property void customTitle(string value) {
+        _customTitle = value;
+        onSessionTitleChange();
+    }
+
+    /**
+     * The custom title if one is set, otherwise the display name
+     */
+    @property string displayTitle() {
+        if (_customTitle.length > 0) return getDisplayText(_customTitle);
+        return displayName;
     }
 
     /**
